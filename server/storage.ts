@@ -54,10 +54,17 @@ export class DatabaseStorage implements IStorage {
     
     try {
       // Use regular pool for Supabase connection with rejectUnauthorized: false
+      // Use connection pooling URL
+      let poolUrl = process.env.DATABASE_URL;
+      if (poolUrl && !poolUrl.includes('-pooler')) {
+        poolUrl = poolUrl.replace('.us-east-2', '-pooler.us-east-2');
+      }
+      
       const pool = new Pool({
-        connectionString: process.env.DATABASE_URL,
+        connectionString: poolUrl,
         ssl: {
-          rejectUnauthorized: false
+          rejectUnauthorized: false,
+          servername: poolUrl ? new URL(poolUrl).hostname : undefined
         },
         max: 20,
         idleTimeoutMillis: 30000,
