@@ -61,25 +61,19 @@ export default function AdminSidebar({ onLogout }: AdminSidebarProps) {
         {navItems.map((item) => {
           const Icon = item.icon;
           return (
-            <Link key={item.name} href={item.href} className={`
-                  flex items-center px-3 py-2 text-sm font-medium rounded-md 
-                  ${isActive(item.href)
-                    ? "bg-gray-100 text-gray-900"
-                    : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
-                  }
-                `}>
-              
-                <Icon 
-                  className={`
-                    mr-3 h-5 w-5
-                    ${isActive(item.href)
-                      ? "text-lbc-red"
-                      : "text-gray-400 group-hover:text-gray-500"
-                    }
-                  `}
-                />
-                {item.name}
-              
+            <Link 
+              key={item.path} 
+              href={item.path}
+              className={`
+                flex items-center px-4 py-2 text-sm font-medium rounded-md
+                ${isActive(item.path) 
+                  ? 'bg-gray-100 text-gray-900'
+                  : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                }
+              `}
+            >
+              <item.icon className="mr-3 h-5 w-5" />
+              {item.name}
             </Link>
           );
         })}
