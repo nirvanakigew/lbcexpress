@@ -12,9 +12,8 @@ import {
   type TrackingHistory,
   type InsertTrackingHistory
 } from "@shared/schema";
-import { drizzle } from 'drizzle-orm/neon-serverless';
+import { drizzle } from 'drizzle-orm/pg';
 import { Pool } from 'pg';
-import { neon } from '@neondatabase/serverless';
 
 export interface IStorage {
   // User methods
@@ -53,9 +52,11 @@ export class DatabaseStorage implements IStorage {
     }
     
     try {
-      const sql = neon(process.env.DATABASE_URL!);
-      this.db = drizzle(sql);
-      console.log("Database connection initialized successfully with Neon");
+      const pool = new Pool({
+        connectionString: process.env.DATABASE_URL,
+      });
+      this.db = drizzle(pool);
+      console.log("Database connection initialized successfully with PostgreSQL");
     } catch (error) {
       console.error("Error initializing database connection:", error);
       throw error;
