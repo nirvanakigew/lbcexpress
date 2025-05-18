@@ -54,7 +54,15 @@ export class DatabaseStorage implements IStorage {
     try {
       const pool = new Pool({
         connectionString: process.env.DATABASE_URL,
+        max: 20,
+        idleTimeoutMillis: 30000,
+        connectionTimeoutMillis: 2000,
       });
+      
+      // Test the connection
+      const client = await pool.connect();
+      await client.release();
+      
       this.db = drizzle(pool);
       console.log("Database connection initialized successfully with PostgreSQL");
     } catch (error) {
