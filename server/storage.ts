@@ -53,7 +53,7 @@ export class DatabaseStorage implements IStorage {
     }
     
     try {
-      const { neon } = require('@neondatabase/serverless');
+      import { neon } from '@neondatabase/serverless';
       const sql = neon(process.env.DATABASE_URL!);
       this.db = drizzle(sql);
       console.log("Database connection initialized successfully with Pool");
