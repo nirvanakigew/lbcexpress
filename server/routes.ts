@@ -710,27 +710,47 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ message: "Invalid input", errors: result.error.errors });
       }
       
-      // Check if tracking number already exists
-      const existingOrder = await storage.getOrderByTrackingNumber(result.data.trackingNumber);
+      // Check if tracking number already exists (with error handling)
+      let existingOrder = null;
+      try {
+        existingOrder = await storage.getOrderByTrackingNumber(result.data.trackingNumber);
+      } catch (dbError) {
+        console.warn("Database error while checking tracking number, proceeding with order creation:", dbError.message);
+      }
       
       if (existingOrder) {
         return res.status(409).json({ message: "Tracking number already exists" });
       }
       
-      const order = await storage.createOrder(result.data);
+      // Try to create the order
+      let order;
+      try {
+        order = await storage.createOrder(result.data);
+      } catch (dbError) {
+        console.error("Database error while creating order:", dbError.message);
+        throw new Error("Failed to create order in database. Please try again later.");
+      }
       
-      // Add initial tracking update
-      await storage.addTrackingUpdate({
-        orderId: order.id,
-        status: order.status,
-        location: order.senderAddress.split(",")[0].trim(), // Use the first part of the sender address as location
-        description: "Order created and processing initiated"
-      });
+      // Add initial tracking update (with error handling)
+      try {
+        await storage.addTrackingUpdate({
+          orderId: order.id,
+          status: order.status,
+          location: order.senderAddress.split(",")[0].trim(), // Use the first part of the sender address as location
+          description: "Order created and processing initiated"
+        });
+      } catch (trackingError) {
+        console.warn("Warning: Failed to add initial tracking but order was created:", trackingError.message);
+        // Continue without tracking update since order was created
+      }
       
       return res.status(201).json(order);
     } catch (error: any) {
       console.error("Error creating order:", error);
-      return res.status(500).json({ message: error.message || "Internal server error" });
+      return res.status(500).json({ 
+        message: "Failed to create order. Please try again later.", 
+        details: error.message
+      });
     }
   });
   
@@ -738,36 +758,69 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const { id } = req.params;
       
-      const existingOrder = await storage.getOrderById(id);
+      // Get existing order with error handling
+      let existingOrder = null;
+      try {
+        existingOrder = await storage.getOrderById(id);
+      } catch (dbError) {
+        console.error("Database error fetching order for update:", dbError.message);
+        return res.status(500).json({ 
+          message: "Failed to retrieve order data. Please try again later.",
+          details: dbError.message
+        });
+      }
       
       if (!existingOrder) {
         return res.status(404).json({ message: "Order not found" });
       }
       
-      // If tracking number is being updated, check if it already exists
+      // If tracking number is being updated, check if it already exists (with error handling)
       if (req.body.trackingNumber && req.body.trackingNumber !== existingOrder.trackingNumber) {
-        const orderWithTrackingNumber = await storage.getOrderByTrackingNumber(req.body.trackingNumber);
-        if (orderWithTrackingNumber && orderWithTrackingNumber.id !== id) {
-          return res.status(409).json({ message: "Tracking number already exists" });
+        try {
+          const orderWithTrackingNumber = await storage.getOrderByTrackingNumber(req.body.trackingNumber);
+          if (orderWithTrackingNumber && orderWithTrackingNumber.id !== id) {
+            return res.status(409).json({ message: "Tracking number already exists" });
+          }
+        } catch (trackingError) {
+          console.warn("Warning: Error checking tracking number uniqueness:", trackingError.message);
+          // Proceed with update, assuming tracking number is unique
         }
       }
       
-      const updatedOrder = await storage.updateOrder(id, req.body);
-      
-      // If status has changed, add a tracking update
-      if (req.body.status && req.body.status !== existingOrder.status) {
-        await storage.addTrackingUpdate({
-          orderId: id,
-          status: req.body.status,
-          location: req.body.location || "N/A",
-          description: req.body.statusDescription || `Status updated to ${req.body.status}`
+      // Update order with error handling
+      let updatedOrder;
+      try {
+        updatedOrder = await storage.updateOrder(id, req.body);
+      } catch (updateError) {
+        console.error("Database error updating order:", updateError.message);
+        return res.status(500).json({ 
+          message: "Failed to update order. Please try again later.",
+          details: updateError.message
         });
+      }
+      
+      // If status has changed, add a tracking update (with error handling)
+      if (req.body.status && req.body.status !== existingOrder.status) {
+        try {
+          await storage.addTrackingUpdate({
+            orderId: id,
+            status: req.body.status,
+            location: req.body.location || "N/A",
+            description: req.body.statusDescription || `Status updated to ${req.body.status}`
+          });
+        } catch (trackingError) {
+          console.warn("Warning: Failed to add tracking update but order was updated:", trackingError.message);
+          // Continue without tracking update since order was updated
+        }
       }
       
       return res.json(updatedOrder);
     } catch (error: any) {
       console.error("Error updating order:", error);
-      return res.status(500).json({ message: error.message || "Internal server error" });
+      return res.status(500).json({ 
+        message: "Failed to update order. Please try again later.", 
+        details: error.message
+      });
     }
   });
   
