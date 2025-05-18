@@ -12,7 +12,7 @@ import {
   type TrackingHistory,
   type InsertTrackingHistory
 } from "@shared/schema";
-import { drizzle } from 'drizzle-orm/pg';
+import { drizzle } from 'drizzle-orm/node-postgres';
 import { Pool } from 'pg';
 
 export interface IStorage {
