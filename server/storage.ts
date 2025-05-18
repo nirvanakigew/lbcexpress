@@ -13,6 +13,7 @@ import {
   type InsertTrackingHistory
 } from "@shared/schema";
 import { drizzle } from 'drizzle-orm/neon-serverless';
+import { Pool } from 'pg';
 import { neon } from '@neondatabase/serverless';
 
 export interface IStorage {
@@ -51,9 +52,19 @@ export class DatabaseStorage implements IStorage {
       throw new Error("DATABASE_URL is required");
     }
     
-    // Initialize Neon serverless client
-    const sql = neon(process.env.DATABASE_URL);
-    this.db = drizzle(sql);
+    try {
+      // Use regular pool for Supabase connection
+      const pool = new Pool({
+        connectionString: process.env.DATABASE_URL,
+        ssl: true
+      });
+      
+      this.db = drizzle(pool);
+      console.log("Database connection initialized successfully with Pool");
+    } catch (error) {
+      console.error("Error initializing database connection:", error);
+      throw error;
+    }
   }
   
   // User methods
