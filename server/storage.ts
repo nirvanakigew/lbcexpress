@@ -54,8 +54,8 @@ export class DatabaseStorage implements IStorage {
     
     try {
       const sql = neon(process.env.DATABASE_URL!);
-      this.db = drizzle(sql);
-      console.log("Database connection initialized successfully with Pool");
+      this.db = drizzle(sql, { logger: true });
+      console.log("Database connection initialized successfully with Neon");
     } catch (error) {
       console.error("Error initializing database connection:", error);
       throw error;
