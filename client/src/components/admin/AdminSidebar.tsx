@@ -14,9 +14,9 @@ interface AdminSidebarProps {
 
 export default function AdminSidebar({ onLogout }: AdminSidebarProps) {
   const [location] = useLocation();
-  
+
   const isActive = (path: string) => location === path;
-  
+
   const navItems = [
     {
       name: "Dashboard",
@@ -44,7 +44,7 @@ export default function AdminSidebar({ onLogout }: AdminSidebarProps) {
       icon: Settings,
     },
   ];
-  
+
   return (
     <div className="h-full flex flex-col bg-white border-r border-gray-200">
       <div className="p-4 border-b border-gray-200">
@@ -61,16 +61,14 @@ export default function AdminSidebar({ onLogout }: AdminSidebarProps) {
         {navItems.map((item) => {
           const Icon = item.icon;
           return (
-            <Link key={item.name} href={item.href}>
-              <a 
-                className={`
+            <Link key={item.name} href={item.href} className={`
                   flex items-center px-3 py-2 text-sm font-medium rounded-md 
                   ${isActive(item.href)
                     ? "bg-gray-100 text-gray-900"
                     : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
                   }
-                `}
-              >
+                `}>
+              
                 <Icon 
                   className={`
                     mr-3 h-5 w-5
@@ -81,7 +79,7 @@ export default function AdminSidebar({ onLogout }: AdminSidebarProps) {
                   `}
                 />
                 {item.name}
-              </a>
+              
             </Link>
           );
         })}
