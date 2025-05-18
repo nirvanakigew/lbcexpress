@@ -29,6 +29,11 @@ export default function AdminSidebar({ onLogout }: AdminSidebarProps) {
       icon: Package,
     },
     {
+      name: "Analytics",
+      href: "/admin/analytics",
+      icon: BarChart3,
+    },
+    {
       name: "Admin Users",
       href: "/admin/users",
       icon: Users,

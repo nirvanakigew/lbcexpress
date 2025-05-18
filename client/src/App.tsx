@@ -12,6 +12,7 @@ import Login from "@/pages/admin/Login";
 import Dashboard from "@/pages/admin/Dashboard";
 import Orders from "@/pages/admin/Orders";
 import Users from "@/pages/admin/Users";
+import Analytics from "@/pages/admin/Analytics";
 import { useState, useEffect } from "react";
 
 function Router() {
@@ -48,6 +49,10 @@ function Router() {
       
       <Route path="/admin/users">
         {() => isAuthenticated ? <Users /> : <Login setIsAuthenticated={setIsAuthenticated} />}
+      </Route>
+      
+      <Route path="/admin/analytics">
+        {() => isAuthenticated ? <Analytics /> : <Login setIsAuthenticated={setIsAuthenticated} />}
       </Route>
       
       {/* Fallback to 404 */}
