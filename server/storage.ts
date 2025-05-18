@@ -53,10 +53,12 @@ export class DatabaseStorage implements IStorage {
     }
     
     try {
-      // Use regular pool for Supabase connection
+      // Use regular pool for Supabase connection with rejectUnauthorized: false
       const pool = new Pool({
         connectionString: process.env.DATABASE_URL,
-        ssl: true
+        ssl: {
+          rejectUnauthorized: false
+        }
       });
       
       this.db = drizzle(pool);
