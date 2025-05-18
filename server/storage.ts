@@ -53,25 +53,9 @@ export class DatabaseStorage implements IStorage {
     }
     
     try {
-      // Use regular pool for Supabase connection with rejectUnauthorized: false
-      // Use connection pooling URL
-      let poolUrl = process.env.DATABASE_URL;
-      if (poolUrl && !poolUrl.includes('-pooler')) {
-        poolUrl = poolUrl.replace('.us-east-2', '-pooler.us-east-2');
-      }
-      
-      const pool = new Pool({
-        connectionString: poolUrl,
-        ssl: {
-          rejectUnauthorized: false,
-          servername: poolUrl ? new URL(poolUrl).hostname : undefined
-        },
-        max: 20,
-        idleTimeoutMillis: 30000,
-        connectionTimeoutMillis: 2000,
-      });
-      
-      this.db = drizzle(pool);
+      const { neon } = require('@neondatabase/serverless');
+      const sql = neon(process.env.DATABASE_URL!);
+      this.db = drizzle(sql);
       console.log("Database connection initialized successfully with Pool");
     } catch (error) {
       console.error("Error initializing database connection:", error);
