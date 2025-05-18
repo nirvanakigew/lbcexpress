@@ -46,33 +46,32 @@ export interface IStorage {
 export class DatabaseStorage implements IStorage {
   private db;
   
+  private db: any;
+  
   constructor() {
     if (!process.env.DATABASE_URL) {
       throw new Error("DATABASE_URL is required");
     }
     
-    try {
-      const pool = new Pool({
-        connectionString: process.env.DATABASE_URL,
-        max: 20,
-        idleTimeoutMillis: 30000,
-        connectionTimeoutMillis: 2000,
-      });
-      
-      // Initialize db without awaiting connection test
-      this.db = drizzle(pool);
-      
-      // Test connection separately (don't use await in constructor)
-      pool.connect().then(client => {
-        client.release();
-        console.log("Database connection initialized successfully with PostgreSQL");
-      }).catch(err => {
-        console.error("Warning: Database connection test failed:", err);
-      });
-    } catch (error) {
+    const pool = new Pool({
+      connectionString: process.env.DATABASE_URL,
+      max: 20,
+      idleTimeoutMillis: 30000,
+      connectionTimeoutMillis: 2000,
+    });
+    
+    this.db = drizzle(pool);
+    this.initialize(pool).catch(error => {
       console.error("Error initializing database connection:", error);
       throw error;
-    }
+    });
+  }
+  
+  private async initialize(pool: Pool) {
+    // Test the connection
+    const client = await pool.connect();
+    await client.release();
+    console.log("Database connection initialized successfully with PostgreSQL");
   }
   
   // User methods
