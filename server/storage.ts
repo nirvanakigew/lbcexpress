@@ -59,12 +59,16 @@ export class DatabaseStorage implements IStorage {
         connectionTimeoutMillis: 2000,
       });
       
-      // Test the connection
-      const client = await pool.connect();
-      await client.release();
-      
+      // Initialize db without awaiting connection test
       this.db = drizzle(pool);
-      console.log("Database connection initialized successfully with PostgreSQL");
+      
+      // Test connection separately (don't use await in constructor)
+      pool.connect().then(client => {
+        client.release();
+        console.log("Database connection initialized successfully with PostgreSQL");
+      }).catch(err => {
+        console.error("Warning: Database connection test failed:", err);
+      });
     } catch (error) {
       console.error("Error initializing database connection:", error);
       throw error;
