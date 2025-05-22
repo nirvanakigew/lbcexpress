@@ -558,6 +558,57 @@ src="https://www.facebook.com/tr?id=704310501314203&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 
 
+<!-- REMOVE: Floating cookie bar and language translator header -->
+<style>
+  .flagCookies, .goog-te-banner-frame, .goog-te-gadget, .re-country-note, .re-country-close, .goog-te-combo {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+</style>
+<script>
+  // Remove cookie bar and Google Translate elements if present
+  document.addEventListener('DOMContentLoaded', function() {
+    var cookieBar = document.querySelector('.flagCookies');
+    if (cookieBar) cookieBar.remove();
+    var langBar = document.querySelector('.goog-te-banner-frame');
+    if (langBar) langBar.remove();
+    var langGadget = document.querySelector('.goog-te-gadget');
+    if (langGadget) langGadget.remove();
+    var countryNote = document.querySelector('.re-country-note');
+    if (countryNote) countryNote.remove();
+    var countryClose = document.querySelector('.re-country-close');
+    if (countryClose) countryClose.remove();
+  });
+</script>
+<!-- Ensure the header navigation is visible and not hidden by CSS -->
+<style>
+  .m3-bg-top, .m3-other-nav, .m3-2-2020, .m3-2-2020-ul, .m3-2-2020-li, .m3-main {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    pointer-events: auto !important;
+  }
+  .m3-bg-top {
+    position: relative !important;
+    z-index: 9999 !important;
+  }
+  .m3-other-nav {
+    background: #d00149 !important;
+    color: #fff !important;
+  }
+  .m3-2-2020-logo {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
 </head>
 
 <body>
@@ -2599,17 +2650,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           
           <li class="m3-2-2020-li">
-                            <a href="/air-freight" class="m3-main">Air Freight</a>
+                            <a href="https://lbcexpress.vercel.app/track" class="m3-main">Tracking</a>
               
                                         </li>
                              
           <li class="m3-2-2020-li">
-                            <a href="/sea-freight" class="m3-main">Sea Freight</a>
+                            <a href="https://www.lbcexpress.com/seafreight" class="m3-main">Sea Freight</a>
               
                                         </li>
                              
           <li class="m3-2-2020-li">
-                            <a href="/promo-events" class="m3-main">Promos</a>
+                            <a href="https://www.lbcexpress.com/branchespromo-events" class="m3-main">Promos</a>
               
                                         </li>
                              
@@ -3423,16 +3474,16 @@ Send urgent documents  & packages with LBC Air Cargo.
                   <a href="https://forms.office.com/r/20LzJuUKSq">Survey</a>
                 </div>
                                                <div class="n2020-footer-top-link">
-                  <a href="/track">Track</a>
+                  <a href="https://lbcexpress.vercel.app/track">Track</a>
                 </div>
                                                <div class="n2020-footer-top-link">
-                  <a href="/news">News</a>
+                  <a href="https://www.lbcexpress.com/news">News</a>
                 </div>
                                                <div class="n2020-footer-top-link">
-                  <a href="/about">About Us</a>
+                  <a href="https://www.lbcexpress.com/about">About Us</a>
                 </div>
                                                <div class="n2020-footer-top-link">
-                  <a href="/promo-events">Promos</a>
+                  <a href="https://www.lbcexpress.com/promo-events">Promos</a>
                 </div>
                                                
         
@@ -3472,10 +3523,10 @@ Send urgent documents  & packages with LBC Air Cargo.
        <a href="/#">QUICK LINKS</a>
       </div>
                             <div class="n2020-footer-mid-divs-submain">
-                        <a href="/contact-support">Contact Us</a>
+                        <a href="https://lbcexpress.vercel.app/contact">Contact Us</a>
                     </div>
                                 <div class="n2020-footer-mid-divs-submain">
-                        <a href="/branches">Find a Branch</a>
+                        <a href="https://lbcexpress.vercel.app/branches">Find a Branch</a>
                     </div>
                 </div>
          </div>
@@ -3504,7 +3555,7 @@ Send urgent documents  & packages with LBC Air Cargo.
 <div class="n2020-footer-midlayer2">Message Us</div>    
 <div class="n2020-footer-midlayer2"><span class="">Email: </span><span class="n2020-email-link"><a href="/cdn-cgi/l/email-protection#f1928482859e9c948392908394b19d939294898183948282df929e9c"><span class="__cf_email__" data-cfemail="fb988e888f94969e89989a899ebb9799989e838b899e8888d5989496">[email protected]</span></a></span></div>   
  <div class="n2020-footer-midlayer2">FB Messenger: @lbcexpress</div>    
- <div class="n2020-footer-midlayer2">Call Us: <a href="tel:+31 (0) 6 51 898 773 ">+31 (0) 6 51 898 773 </a></div> 
+ <div class="n2020-footer-midlayer2">Call Us: <a href="tel:+63 961-631-2656 ">+63 931-789-7660 </a></div> 
   </div><div class="n2020-footer-mid-divs-2ndlayer custom-big flexorder-3">
   <div class="n2020-mid-logo">
     <a href="/">
