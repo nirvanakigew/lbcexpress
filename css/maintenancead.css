@@ -1,0 +1,76 @@
+
+.sectiondiv20-bgcolor{
+  background-color: #fff;
+}
+
+.maintenancettitle{
+  line-height: 2;
+  text-align: center;
+  font-family: 'MyriadPro';
+  font-size: 28px;
+
+    color: #a1a1a1;
+  padding-bottom: 25px;
+  font-weight: bold;
+
+}
+
+.maintenanceset{
+  padding: 25px 5px;
+  line-height: 1;
+  text-align: center;
+  font-family: 'MyriadPro';
+  font-size: 22px;
+  color: #251f18;
+}
+.advisediv{
+  text-align: center;
+}
+.advisepickup, .advisepickup:hover{
+  padding: 15px 5px;
+  line-height: 1;
+  text-align: center;
+  font-family: 'MyriadPro';
+  font-size: 20px;
+  color: #007aff;
+  text-decoration: none;
+  outline: none;
+}
+
+.maintenancemsg{
+  padding-top: 100px;
+  line-height: 1;
+  text-align: center;
+  font-family: 'MyriadPro';
+  font-size: 28px;
+  color: #a1a1a1;
+}
+
+
+@media (min-width:766px){
+.maintenancedi{
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+
+}
+.maintenancelogo{
+  min-width: 30px;
+  max-width: 30px;
+}
+}
+@media (max-width:766px){
+.maintenancedi{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+
+}
+.maintenancelogo{
+  min-width: 40px;
+  max-width: 40px;
+  margin-right: 10px;
+}
+}

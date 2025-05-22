@@ -1,0 +1,156 @@
+
+
+.section-fb{
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  padding: 150px 15px;
+}
+.section-fb-div{
+  max-width: 880px;
+  width: 100%;
+  display: block;
+  margin:0 auto;
+  text-align: center;
+}
+
+.fb-div-image{
+  margin: 0 auto;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.fb-image{
+  width: 100%;
+}
+
+
+
+
+
+
+.directory-section {
+  width:100%;
+  background-color:#fff;
+  min-height:700px;
+}
+
+@media (max-width: 986px) {
+  .directory-div {
+    max-width:880px;
+    display:block;
+    margin:0 auto;
+    padding-top:80px;
+    padding-left:25px;
+    padding-right:25px;
+    width:100%;
+  }
+}
+
+@media (max-width: 986px) {
+  .directory-div-2 {
+    max-width:880px;
+    display:block;
+    margin:0 auto;
+    padding-top:40px;
+    padding-left:25px;
+    padding-right:25px;
+    width:100%;
+  }
+}
+
+@media (min-width: 986px) {
+  .directory-div {
+    max-width:880px;
+    display:block;
+    margin:0 auto;
+    padding-top:80px;
+    width:100%;
+  }
+}
+
+@media (min-width: 986px) {
+  .directory-div-2 {
+    max-width:880px;
+    display:block;
+    margin:0 auto;
+    padding-top:80px;
+    width:100%;
+  }
+}
+
+.directory-div-list {
+  display:block;
+  min-height:80px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-bottom:1px solid rgb(210,210,210);
+  width:100%;
+  position:relative;
+}
+
+@media (min-width: 486px) {
+  .directory-number {
+    font-family:MyriadPro;
+    line-height:1.24;
+    font-size:18px;
+    display:block;
+    padding-top:5px;
+    color:rgb(85,85,85);
+    width:100%;
+  }
+}
+
+@media (max-width: 486px) {
+  .directory-number {
+    font-family:MyriadPro;
+    line-height:1.24;
+    font-size:18px;
+    display:block;
+    padding-top:5px;
+    color:rgb(85,85,85);
+    width:100%;
+    /*max-width:250px;*/
+  }
+}
+
+.directory-email {
+  font-family:MyriadPro;
+  line-height:1.24;
+  font-size:18px;
+  display:block;
+  padding-top:5px;
+  color:rgb(85,85,85);
+}
+
+.directory-email-link:hover {
+  font-family:MyriadPro;
+  line-height:1.24;
+  font-size:18px;
+  padding-top:5px;
+  color:#D80A28;
+  outline:none;
+  text-decoration:none;
+}
+
+.directory-email-link {
+  font-family:MyriadPro;
+  line-height:1.24;
+  font-size:18px;
+  padding-top:5px;
+  color:#D80A28;
+  outline:none;
+  text-decoration:none;
+  display:block;
+}
+
+.directory-title {
+  font-family:MyriadPro;
+  line-height:1.24;
+  font-size:26px;
+  display:block;
+  padding-bottom:20px;
+  color:#281908;
+}
+

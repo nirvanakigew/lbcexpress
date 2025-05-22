@@ -1,0 +1,569 @@
+.selected-new {
+  display:none;
+}
+
+.dropdownyear {
+  background:transparent;
+  cursor:pointer;
+  display:block;
+  float:left;
+  font-size:14px;
+  font-weight:normal;
+  height:42px;
+  line-height:40px;
+  outline:none;
+  padding-left:18px;
+  /*padding-right:30px;*/
+  position:relative;
+  text-align:left !important;
+  /*transition:all 0.2s ease-in-out;*/
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  white-space:nowrap;
+  min-width:85px;
+  max-width:120px;
+  color:#fff;
+  margin-top:-3px;
+}
+
+.dropdownyear:hover {
+  background-color:transparent;
+}
+
+.dropdownyear:active, .dropdownyear.open {
+  background-color:transparent;
+}
+
+.dropdownyear:after {
+  height:20px;
+  width:20px;
+  /*border-left:4px solid transparent;*/
+  /*border-right:4px solid transparent;*/
+  /*border-top:4px solid #777;*/
+  /*-webkit-transform:origin(50% 20%);*/
+  /*transform:origin(50% 20%);*/
+  /*transition:all 0.125s ease-in-out;*/
+  content:'';
+  display:block;
+  /*margin-top:-2px;*/
+  pointer-events:none;
+  float:right;
+  margin-top:15px;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+}
+
+.dropdownyear.open:after {
+  /*-webkit-transform:rotate(-180deg);*/
+  /*transform:rotate(-180deg);*/
+  background:url(../images/up-arrow10_1.png) no-repeat;
+}
+
+.dropdownyear.open .list {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  opacity:1;
+  pointer-events:auto;
+}
+
+.dropdownyear.open .option {
+  cursor:pointer;
+  list-style:none;
+  list-style-type:none;
+}
+
+.dropdownyear.wide {
+  width:100%;
+}
+
+.dropdownyear.wide .list {
+  left:0 !important;
+  right:0 !important;
+}
+
+.dropdownyear .list {
+  box-sizing:border-box;
+  /*transition:all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;*/
+  -webkit-transform:scale(0.75);
+  transform:scale(0.75);
+  -webkit-transform-origin:50% 0;
+  transform-origin:50% 0;
+  box-shadow:0 0 0 1px rgba(0, 0, 0, 0.09);
+  background-color:rgba(255,255,255,0.75);
+  border-radius:6px;
+  margin-top:4px;
+  padding:3px 0;
+  opacity:0;
+  overflow:hidden;
+  pointer-events:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  z-index:999;
+}
+
+.dropdownyear .list:hover .option:not(:hover) {
+  background-color:transparent !important;
+}
+
+.dropdownyear .option {
+  cursor:default;
+  font-weight:400;
+  line-height:40px;
+  outline:none;
+  padding-left:18px;
+  padding-right:29px;
+  text-align:left;
+  /*transition:all 0.2s;*/
+}
+
+.dropdownyear .option:hover, .dropdownyear .option:focus {
+  background-color:transparent;
+}
+
+.dropdownyear .option.selected {
+  font-weight:600;
+}
+
+.dropdownyear .option.selected:focus {
+  background:transparent;
+}
+
+.selected-new {
+  list-style-type:none !important;
+  list-style:none !important;
+}
+
+.selected-new ul {
+  padding-left:0;
+  margin-left:0;
+  color:#070707;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
+.searchnews {
+  background:transparent;
+  border:none;
+  outline:none;
+  margin-top:5px;
+  color:#fff;
+}
+
+.selected-newmonth {
+  display:none;
+}
+
+.dropdownmonth {
+  background:transparent;
+  cursor:pointer;
+  display:block;
+  float:left;
+  font-size:14px;
+  font-weight:normal;
+  height:42px;
+  line-height:40px;
+  outline:none;
+  padding-left:18px;
+  position:relative;
+  text-align:left !important;
+  /*transition:all 0.2s ease-in-out;*/
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  white-space:nowrap;
+  width:120px;
+  color:#fff;
+  margin-top:-3px;
+}
+
+.dropdownmonth:hover {
+  background-color:transparent;
+}
+
+.dropdownmonth:active, .dropdownmonth.open {
+  background-color:transparent;
+}
+
+.dropdownmonth:after {
+  height:20px;
+  width:20px;
+  /*transition:all 0.125s ease-in-out;*/
+  content:'';
+  display:block;
+  pointer-events:none;
+  float:right;
+  margin-top:15px;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+}
+
+.dropdownmonth.open:after {
+  background:url(../images/up-arrow10_1.png) no-repeat;
+}
+
+.dropdownmonth.open .list {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  opacity:1;
+  pointer-events:auto;
+  max-height:250px;
+  overflow-y:scroll;
+}
+
+.dropdownmonth.open .option {
+  cursor:pointer;
+  list-style:none;
+  list-style-type:none;
+}
+
+.dropdownmonth.wide {
+  width:100%;
+}
+
+.dropdownmonth.wide .list {
+  left:0 !important;
+  right:0 !important;
+}
+
+.dropdownmonth .list {
+  box-sizing:border-box;
+  /*transition:all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;*/
+  -webkit-transform:scale(0.75);
+  transform:scale(0.75);
+  -webkit-transform-origin:50% 0;
+  transform-origin:50% 0;
+  box-shadow:0 0 0 1px rgba(0, 0, 0, 0.09);
+  background-color:rgba(255,255,255,0.75);
+  border-radius:6px;
+  margin-top:4px;
+  padding:3px 0;
+  opacity:0;
+  overflow:hidden;
+  pointer-events:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  z-index:999;
+}
+
+.dropdownmonth .list:hover .option:not(:hover) {
+  background-color:transparent !important;
+}
+
+.dropdownmonth .option {
+  cursor:default;
+  font-weight:400;
+  line-height:40px;
+  outline:none;
+  padding-left:18px;
+  padding-right:29px;
+  text-align:left;
+  /*transition:all 0.2s;*/
+}
+
+.dropdownmonth .option:hover, .dropdownmonth .option:focus {
+  background-color:transparent;
+}
+
+.dropdownmonth .option.selected {
+  font-weight:600;
+}
+
+.dropdownmonth .option.selected:focus {
+  background:transparent;
+}
+
+.selected-newmonth {
+  list-style-type:none !important;
+  list-style:none !important;
+}
+
+.selected-newmonth ul {
+  padding-left:0;
+  margin-left:0;
+  color:#070707;
+  padding-bottom:0;
+  margin-bottom:0;
+  /*overflow:hidden;*/
+}
+
+@media (max-width: 576px) {
+  .headlinenewsdate {
+    display:block;
+    margin:0 auto;
+    line-height:1.24;
+    max-width:560px;
+    text-align:center;
+    font-family:'MyriadPro';
+    color:rgba(40,25,8,0.8);
+    font-size:14px;
+    padding-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .headlinenewsdate {
+    display:block;
+    margin:0 auto;
+    line-height:1.24;
+    max-width:560px;
+    text-align:center;
+    font-family:'MyriadPro';
+    color:rgba(40,25,8,0.8);
+    font-size:16px;
+    padding-top:20px;
+  }
+}
+
+.headlinenewsdesc {
+  /*display:block;*/
+  margin:0 auto;
+  line-height:1.24;
+  max-width:90%;
+  text-align:center;
+  font-family:'MyriadPro';
+  color:rgba(40,25,8,0.8);
+  font-size:16px;
+  padding-top:20px;
+  opacity:0;
+  /*transition:all 0.6s ease-out;*/
+  position:absolute;
+}
+
+.services-ms-news:hover .headlinenewsdesc {
+  transition:all 0.6s ease-in-out;
+  opacity:1;
+  display:block;
+  position:relative;
+}
+
+@media (max-width: 576px) {
+  .headlinenews {
+    display:block;
+    margin:0 auto;
+    line-height:1.24;
+    max-width:560px;
+    text-align:center;
+    font-family:'MyriadPro';
+    color:#281908;
+    font-size:calc(1.2em + 1.2vw);
+    padding-top:40px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .headlinenews {
+    display:block;
+    margin:0 auto;
+    line-height:1.24;
+    max-width:560px;
+    text-align:center;
+    font-family:'MyriadPro';
+    color:#281908;
+    font-size:26px;
+    padding-top:40px;
+  }
+}
+
+#flexor {
+  /*flex:1;*/
+  /*width:100%;*/
+  /*display:block;*/
+}
+
+.latest-news:hover {
+  margin-top:5px;
+  font-size:14px;
+  color:#fff;
+  font-family:'MyriadPro';
+  outline:none;
+  text-decoration:none;
+}
+
+.latest-news {
+  margin-top:5px;
+  font-size:14px;
+  color:#fff;
+  font-family:'MyriadPro';
+  outline:none;
+  text-decoration:none;
+}
+
+.drop-yearselect {
+  /*position:fixed;*/
+  width:100%;
+  height:100%;
+  background-color:red;
+  display:block;
+  /*min-height:100%;*/
+  z-index:1027;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.select-month {
+  background-color:transparent;
+  border:none;
+  padding-right:10px;
+  margin:0;
+  color:#fff;
+  font-family:'MyriadPro';
+  font-size:14px;
+  line-height:1.24;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  padding-left:0;
+}
+
+
+.select-month > option{
+  border:none;
+  color:#000;
+  font-family:'MyriadPro';
+  font-size:14px;
+  line-height:1.24;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.billers-list > option {
+  background-color:#ffffff;
+  color:#D80A28;
+  font-family:'MyriadPro';
+  font-size:28px;
+  line-height:1.24;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  cursor:pointer;
+}
+
+.billers-list {
+  background-color:rgba(237,237,237,0.7);
+  border:1px solid rgba(189,189,189,0.67);
+  color:#D80A28;
+  font-family:'MyriadPro';
+  font-size:28px;
+  line-height:1.24;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  padding:15px 15px;
+  cursor:pointer;
+  border-radius:15px;
+  max-width:300px;
+  width:100%;
+  text-align:center;
+}
+
+.select-year {
+  background-color:transparent;
+  border:none;
+  padding-right:10px;
+  margin:0;
+  color:#fff;
+  font-family:'MyriadPro';
+  font-size:14px;
+  line-height:1.24;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  padding-left:0;
+}
+
+
+.select-year > option{
+  border:none;
+  padding-right:10px;
+  margin:0;
+  color:#000;
+  font-family:'MyriadPro';
+  font-size:14px;
+  line-height:1.24;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  padding-left:10px;
+}
+
+#latest-news {
+  margin-left:2px;
+}
+
+.hidbox {
+  display:block;
+  overflow:hidden;
+  height:35px;
+  margin-top:20px;
+}
+
+.services-ms-news:hover .hidbox > .hiddentext {
+  /*line-height:1.24;*/
+  /*max-width:90%;*/
+  /*font-size:14px;*/
+  /*display:block;*/
+  /*margin:0 auto;*/
+  /*color:rgba(40,25,8,0.8);*/
+  /*text-align:center;*/
+  /*font-family:'MyriadPro';*/
+  margin-top:0;
+  -webkit-transition:margin .5s;
+  -moz-transition:margin .5s;
+  transition:margin .5s;
+}
+
+.services-ms-news:hover .darkening > .news-img {
+  /*transform:scale(1.1);*/
+  /*transition:all .5s ease-in-out;*/
+  opacity:0.8;
+}
+
+.services-ms-news:hover .darkening {
+  transform:scale(1.1);
+  transition:all .5s ease-in-out;
+  /*opacity:0.8;*/
+}
+
+.hiddentext {
+  line-height:1.24;
+  max-width:90%;
+  font-size:14px;
+  display:block;
+  margin:0 auto;
+  color:rgba(40,25,8,0.8);
+  text-align:center;
+  font-family:'MyriadPro';
+  margin-top:35px;
+  -webkit-transition:margin .5s;
+  -moz-transition:margin .5s;
+  transition:margin .5s;
+}
+
+.darkening {
+  background-color:rgb(0,0,0);
+  /*width:95%;*/
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  /*margin-top:10px;*/
+  transition:all .5s ease-in-out;
+}
+
+.darkening:hover {
+  transform:scale(1.1);
+  transition:all .5s ease-in-out;
+}
+
+.max-zoom-news {
+  width:95%;
+  overflow:hidden;
+  margin:0 auto;
+  margin-top:10px;
+}
+

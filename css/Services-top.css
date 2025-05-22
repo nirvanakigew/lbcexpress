@@ -1,0 +1,146 @@
+.bgservices-main {
+  display:flex;
+  line-height:1.15;
+  background:#fff;
+  /*min-height:105px;*/
+  width:100%;
+}
+
+@media (min-width: 624px) {
+  .services-maindiv {
+    max-width:640px;
+    display:flex;
+    margin:0 auto;
+    /*background-color:red;*/
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 624px) {
+  .services-maindiv {
+    max-width:640px;
+    display:block;
+    margin:0 auto;
+    /*background-color:red;*/
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 624px) {
+  .services-maindiv-1 {
+    display:block;
+    width:100%;
+  }
+}
+
+@media (min-width: 624px) {
+  .services-maindiv-1 {
+    display:flex;
+  }
+}
+
+@media (max-width: 624px) {
+  .services-maindiv-2 {
+    display:block;
+    text-align:center;
+    width:100%;
+  }
+}
+
+@media (min-width: 624px) {
+  .services-maindiv-2 {
+    display:flex;
+  }
+}
+
+@media (min-width: 624px) {
+  .services-sub-2 {
+    display:inline-block;
+    line-height:1.15;
+    width:120px;
+    /*background:red;*/
+  }
+}
+
+@media (max-width: 624px) {
+  .services-sub-2 {
+    display:inline-block;
+    line-height:1.15;
+    width:120px;
+    /*background:red;*/
+    /*margin:0 auto;*/
+  }
+}
+
+.services-sub-1 {
+  display:inline-block;
+  line-height:1.15;
+  width:120px;
+  /*background:red;*/
+}
+
+.services-sub-2-img {
+  display:block;
+  margin:0 auto;
+  width:60px;
+  padding-top:20px;
+}
+
+.services-sub-1-img {
+  display:block;
+  margin:0 auto;
+  width:60px;
+  padding-top:20px;
+}
+
+.services-sub-2-text {
+  text-align:center;
+  display:block;
+  font-family:MyriadPro;
+  color:#201406;
+  padding-top:15px;
+  font-size:11px;
+}
+
+.services-sub-1-text {
+  text-align:center;
+  display:block;
+  font-family:MyriadPro;
+  color:#201406;
+  padding-top:15px;
+  font-size:11px;
+}
+
+#packagespage-n1 {
+  cursor:pointer;
+}
+
+#freightpage-n1 {
+  cursor:pointer;
+}
+
+#moneypage-n1 {
+  cursor:pointer;
+}
+
+#businesssolutionspage-n1 {
+  cursor:pointer;
+}
+
+.justlink:hover {
+  margin:0;
+  padding:0;
+  outline:none;
+  text-decoration:none;
+  /*position:absolute;*/
+  /*color:initial;*/
+}
+
+.justlink {
+  margin:0;
+  padding:0;
+  outline:none;
+  text-decoration:none;
+  /*position:absolute;*/
+}
+

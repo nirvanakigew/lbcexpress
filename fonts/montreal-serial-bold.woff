@@ -1,0 +1,400 @@
+<html><head>
+<meta charset="utf-8"><link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min_1.css">
+    <link rel="stylesheet" href="../css/Apple-nav-with-search.css">
+    <link rel="stylesheet" href="../css/branch.css">
+    <link rel="stylesheet" href="../css/branches.css">
+    <link rel="stylesheet" href="../css/codcop-ss.css">
+    <link rel="stylesheet" href="../css/codnew.css">
+    <link rel="stylesheet" href="../css/countrystylecss.css">
+    <link rel="stylesheet" href="../css/customizedsolu.css">
+    <link rel="stylesheet" href="../css/delivery.css">
+    <link rel="stylesheet" href="../css/directory.css">
+    <link rel="stylesheet" href="../css/fomob.css">
+    <link rel="stylesheet" href="../css/fontstogo.css">
+    <link rel="stylesheet" href="../css/footer-corporate.css">
+    <link rel="stylesheet" href="../css/freight.css">
+    <link rel="stylesheet" href="../css/fullmodal.css">
+    <link rel="stylesheet" href="../css/imagecons.css">
+    <link rel="stylesheet" href="../css/international.css">
+    <link rel="stylesheet" href="../css/jquery.ui.core.css">
+    <link rel="stylesheet" href="../css/jquery.ui.selectmenu.css">
+    <link rel="stylesheet" href="../css/leadership.css">
+    <link rel="stylesheet" href="../css/Map-Clean.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/mobilenews.css">
+    <link rel="stylesheet" href="../css/modal-select-ui.css">
+    <link rel="stylesheet" href="../css/modalconfig.css">
+    <link rel="stylesheet" href="../css/money.css">
+    <link rel="stylesheet" href="../css/myselect.css">
+    <link rel="stylesheet" href="../css/neworange.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../css/newspage.css">
+    <link rel="stylesheet" href="../css/pickup.css">
+    <link rel="stylesheet" href="../css/pickupform.css">
+    <link rel="stylesheet" href="../css/pickupselect.css">
+    <link rel="stylesheet" href="../css/rates.css">
+    <link rel="stylesheet" href="../css/select-biller.css">
+    <link rel="stylesheet" href="../css/select3.css">
+    <link rel="stylesheet" href="../css/selection.css">
+    <link rel="stylesheet" href="../css/Services-top.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/servicev1.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/testing.css">
+    <link rel="stylesheet" href="../css/tracking.css">
+    <link rel="stylesheet" href="../css/ui-new-select.css">
+    <link rel="stylesheet" href="../css/whattheysay.css">
+
+
+
+
+
+
+
+<style type="text/css">
+
+
+
+        .sitenotfoundlink{
+          text-decoration: none;
+          outline:none;
+        }
+        .sitenotfoundlink:hover{
+          text-decoration: none;
+          outline:none;
+        }
+
+
+
+
+.navtoplbcnew{
+  background-color: #d00149;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  z-index: 1024;
+  top: 0;
+}
+
+
+
+
+@media (min-width:686px){
+.downtimeimage{
+  margin-top: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin-left:  auto;
+  margin-right: auto;
+
+}
+
+.titlepage{
+  width: 100%;
+color:#E60606;
+line-height:1.24;
+font-size:56px;
+font-weight:bold;
+font-family:'MyriadPro';
+word-spacing:1;
+letter-spacing:1;
+display:block;
+margin-top: 30px;
+
+}
+
+.downtimediv{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  min-height: 800px;
+  width: 100%;
+
+  display: block;
+  text-align: center;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+}
+.helpimg{
+  width: 100%:
+}
+
+.helpdivtext{
+  display:inline-block;
+max-width:660px;
+width:100%;
+position:relative;
+padding-left: 15px;
+}
+
+
+.titlesub{
+  margin-top: 50px;
+  width: 100%;
+color:#8e8e8e;
+line-height:1.24;
+font-size:26px;
+font-family:'MyriadPro';
+word-spacing:1;
+letter-spacing:1;
+display:block;
+}
+
+
+}
+
+@media (max-width:686px){
+
+  .titlesub{
+    margin-top: 50px;
+    width: 100%;
+  color:#8e8e8e;
+  line-height:1.24;
+  font-size:22px;
+  font-family:'MyriadPro';
+  word-spacing:1;
+  letter-spacing:1;
+  display:block;
+  }
+
+
+
+.downtimeimage{
+  margin-top: 50px;
+  width: 100%;
+  min-width: 360px;
+  max-width: 800px;
+  margin-left:  auto;
+  margin-right: auto;
+margin-top: 60px;
+}
+
+.titlepage{
+  width: 100%;
+color:#E60606;
+line-height:1.24;
+font-size:42px;
+font-weight:bold;
+font-family:'MyriadPro';
+word-spacing:1;
+letter-spacing:1;
+display:block;
+margin-top: 20px;
+
+}
+
+.downtimediv{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  min-height: 800px;
+  width: 100%;
+
+  display: block;
+  text-align: center;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+}
+.helpimg{
+  max-width: 50px;
+  width: 100%:
+}
+
+
+.helpdivtext{
+  display:inline-block;
+  padding-left: 15px;
+max-width:660px;
+width:100%;
+position:relative;
+}
+
+
+
+}
+
+
+.helpdiv{
+  margin-top: 70px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+width:100%;
+}
+.helpdivimge{
+  display:inline-table;
+max-width:80px;
+width:100%;
+text-align:center;
+}
+
+
+
+
+.helptext{
+  margin-top: 10px;
+  line-height:1.24;
+font-size:18px;
+font-family:'MyriadPro';
+color:#8e8e8e;
+display:block;
+text-align: left;
+}
+.helptexttitle{
+  text-align: left;
+  line-height:1.24;
+font-size:18px;
+font-family:'MyriadPro';
+color:rgba(40,25,8,.8);
+display:block;
+font-weight: bold;
+text-decoration: none;
+outline: none;
+}
+.helptexttitle:hover{
+  text-align: left;
+  line-height:1.24;
+font-size:18px;
+font-family:'MyriadPro';
+color:rgba(40,25,8,.8);
+display:block;
+font-weight: bold;
+text-decoration: none;
+outline: none;
+}
+
+
+.helpvid{
+  display: block;
+  margin-top: 20px;
+}
+
+.wholedivlink{
+  text-decoration: none;
+  outline: none;
+  display: flex;
+}
+.wholedivlink:hover{
+  text-decoration: none;
+  outline: none;
+    display: flex;
+}
+
+
+
+</style>
+
+
+
+
+</head><body>
+
+
+
+
+
+
+
+<div class="hidden-mickey">
+
+
+    <section class="navtoplbcnew">
+        <div class="navtoplbcimg-contain">
+                  <div class="navtoplbcimg-contain-flex">
+<a href="https://www.lbcexpress.com" class="sitenotfoundlink">
+            <img src="../images/icon_3.png" class="navtoplbcimg-logo">
+</a>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <div class="downtimediv">
+
+      <div class="titlepage">
+        That page can’t be found.
+      </div>
+      <div class="titlesub">
+        But we want to help. Try one of these.
+      </div>
+
+<div class="helpdiv">
+  <div class="helpdivimge">
+    <img src="../images/search.png" class="helpimg">
+  </div>
+<div class="helpdivtext">
+  <div class="helptexttitle">
+    Search smarter, find faster.
+  </div>
+  <div class="helptext">
+    Type in a tracking number, a branch, package size, or anything to search our site.
+  </div>
+  <div class="helpvid">
+    <video playsinline="" autoplay="" muted="" loop="" style="width:100%;">
+      <source src="../media/vidhelp.mov" type="video/mp4">
+     </video>
+  </div>
+</div>
+</div>
+
+
+
+<div class="helpdiv">
+  <a href="https://www.lbcexpress.com/news" class="wholedivlink">
+  <div class="helpdivimge">
+    <img src="../images/news.png" class="helpimg">
+  </div>
+<div class="helpdivtext">
+  <div class="helptexttitle">
+    News, latest, promos
+  </div>
+  <div class="helptext">
+    So many things going on, so easy to be a part of them.
+  </div>
+</div>
+</a>
+</div>
+
+
+
+
+<div class="helpdiv">
+  <a href="https://www.lbcexpress.com/contact" class="wholedivlink">
+  <div class="helpdivimge">
+    <img src="../images/help.png" class="helpimg">
+  </div>
+<div class="helpdivtext">
+  <div class="helptexttitle">
+    Get help
+  </div>
+  <div class="helptext">
+    A lot in this world are complicated but not getting help from us.
+  </div>
+</div>
+</a>
+</div>
+
+
+
+    <!--<img src="/assets_construction/img/site_not_found.png" class="downtimeimage"/>-->
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+</body></html>

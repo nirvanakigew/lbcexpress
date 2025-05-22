@@ -1,0 +1,2336 @@
+@media (min-width: 619px) {
+  .crc {
+    background-color:#DB416A;
+    height:55px;
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    line-height:1.15;
+    display:flex;
+  }
+}
+
+@media (max-width: 618px) {
+  .crc {
+    background-color:#DB416A;
+    min-height:55px;
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    line-height:1.15;
+    display:flex;
+  }
+}
+
+@media (max-width: 628px) {
+  .crcbody3 {
+    width:auto;
+    height:55px;
+    display:flex;
+    margin:0 auto;
+    line-height:1.15;
+    text-align:left;
+    color:#fff;
+    font-family:HelveticaNeue-Roman;
+    font-size:16px;
+    float:right;
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
+
+@media (min-width: 629px) {
+  .crcbody3 {
+    width:auto;
+    height:55px;
+    display:flex;
+    /*margin:0 auto;*/
+    line-height:1.15;
+    text-align:left;
+    color:#fff;
+    font-family:HelveticaNeue-Roman;
+    font-size:16px;
+    float:right;
+    margin-right:30px;
+  }
+}
+
+@media (max-width: 628px) {
+  .crcbody2 {
+    width:160px;
+    height:55px;
+    display:flex;
+    margin:0 auto;
+    line-height:1.15;
+    text-align:left;
+    color:#fff;
+    font-family:'MyriadPro';
+    font-size:16px;
+    float:right;
+    margin-left:10px;
+  }
+}
+
+@media (min-width: 629px) {
+  .crcbody2 {
+    width:270px;
+    height:55px;
+    display:flex;
+    margin:0 auto;
+    line-height:1.15;
+    text-align:left;
+    color:#fff;
+    font-family:'MyriadPro';
+    font-size:16px;
+    float:right;
+    margin-right:40px;
+  }
+}
+
+@media (min-width: 1059px) {
+  .crcbody {
+    max-width:350px;
+    height:55px;
+    display:flex;
+    margin:0 auto;
+    line-height:1.15;
+    text-align:left;
+    color:#fff;
+    font-family:'MyriadPro';
+    font-size:16px;
+    float:left;
+  }
+}
+
+@media (min-width: 658px) and (max-width: 1058px) {
+  .crcbody {
+    max-width:300px;
+    height:55px;
+    display:flex;
+    /*margin:0 auto;*/
+    line-height:1.15;
+    text-align:justify;
+    color:#fff;
+    font-family:'MyriadPro';
+    font-size:16px;
+    float:left;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+}
+
+@media (max-width: 658px) {
+  .crcbody {
+    max-width:180px;
+    height:55px;
+    display:flex;
+    /*margin:0 auto;*/
+    line-height:1.15;
+    text-align:justify;
+    color:#fff;
+    font-family:'MyriadPro';
+    font-size:12px;
+    float:left;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+}
+
+.maincrc {
+  width:880px;
+  margin:0 auto;
+  line-height:1.15;
+  background:#DB416A;
+  height:55px;
+}
+
+@media (min-width: 629px) {
+  .countryselect {
+    /*background:rgb(77,121,235);*/
+    /*opacity:0.5;*/
+    background-color:#FF9300;
+    border-radius:8px;
+    align-self:baseline;
+    width:250px;
+    position:absolute;
+    height:auto;
+    /*vertical-align:middle;*/
+    margin-top:12.5px;
+    z-index:1028;
+    display:none;
+  }
+}
+
+@media (max-width: 628px) {
+  .countryselect {
+    /*background:rgb(77,121,235);*/
+    /*opacity:0.5;*/
+    background-color:#FF9300;
+    border-radius:8px;
+    align-self:baseline;
+    width:160px;
+    position:absolute;
+    height:auto;
+    /*vertical-align:middle;*/
+    margin-top:12.5px;
+    z-index:1028;
+    display:none;
+  }
+}
+
+.crcsbg {
+  background-color:#FF9300;
+  border-radius:8px;
+  align-self:center;
+  width:250px;
+}
+
+.country1inside::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside2::before {
+  content:"";
+  display:block;
+  background:url(../images/country_2.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+
+.country1inside::before {
+  content:"";
+  display:block;
+  background:url(../images/ph2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+
+.country1::before {
+  content:"";
+  display:block;
+  background:url(../images/ph2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1 {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1 {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+
+/*select country australia*/
+
+
+.country1-australia::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-australia::before {
+  content:"";
+  display:block;
+  background:url(../images/australia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-australia {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-australia {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-australia::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-australia::before {
+  content:"";
+  display:block;
+  background:url(../images/australia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-australia {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-australia {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of australia */
+
+
+
+/*select country bahrain*/
+.country1-bahrain::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-bahrain::before {
+  content:"";
+  display:block;
+  background:url(../images/bahrain2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-bahrain {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-bahrain {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-bahrain::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-bahrain::before {
+  content:"";
+  display:block;
+  background:url(../images/bahrain2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-bahrain {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-bahrain {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of australia */
+
+
+/*select country brunei*/
+.country1-brunei::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-brunei::before {
+  content:"";
+  display:block;
+  background:url(../images/brunei2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-brunei {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-brunei {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-brunei::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-brunei::before {
+  content:"";
+  display:block;
+  background:url(../images/brunei2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-brunei {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-brunei {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of brunei */
+
+
+/*select country canada*/
+.country1-canada::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-canada::before {
+  content:"";
+  display:block;
+  background:url(../images/canada2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-canada {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-canada {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-canada::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-canada::before {
+  content:"";
+  display:block;
+  background:url(../images/canada2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-canada {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-canada {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of canada */
+
+
+
+/*select country guam*/
+.country1-guam::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-guam::before {
+  content:"";
+  display:block;
+  background:url(../images/guam2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-guam {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-guam {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-guam::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-guam::before {
+  content:"";
+  display:block;
+  background:url(../images/guam2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-guam {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-guam {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of guam */
+
+
+/*select country guam*/
+.country1-hongkong::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-hongkong::before {
+  content:"";
+  display:block;
+  background:url(../images/hong-kong2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-hongkong {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-hongkong {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-hongkong::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-hongkong::before {
+  content:"";
+  display:block;
+  background:url(../images/hong-kong2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-hongkong {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-hongkong {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of hongkong */
+
+
+/*select country italy*/
+.country1-italy::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-italy::before {
+  content:"";
+  display:block;
+  background:url(../images/italy2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-italy {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-italy {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-italy::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-italy::before {
+  content:"";
+  display:block;
+  background:url(../images/italy2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-italy {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-italy {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of italy */
+
+
+
+
+/*select country japan*/
+.country1-japan::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-japan::before {
+  content:"";
+  display:block;
+  background:url(../images/japan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-japan {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-japan {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-japan::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-japan::before {
+  content:"";
+  display:block;
+  background:url(../images/japan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-japan {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-japan {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of japan */
+
+
+/*select country korea*/
+.country1-korea::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-korea::before {
+  content:"";
+  display:block;
+  background:url(../images/korea2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-korea {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-korea {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-korea::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-korea::before {
+  content:"";
+  display:block;
+  background:url(../images/korea2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-korea {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-korea {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of korea */
+
+
+/*select country ksa saudi arabia*/
+.country1-ksa::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-ksa::before {
+  content:"";
+  display:block;
+  background:url(../images/saudiarabia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-ksa {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-ksa {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-ksa::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-ksa::before {
+  content:"";
+  display:block;
+  background:url(../images/saudiarabia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-ksa {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-ksa {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of saudi arabia (ksa) */
+
+
+
+/*select country kuwait*/
+.country1-kuwait::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-kuwait::before {
+  content:"";
+  display:block;
+  background:url(../images/kuwait2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-kuwait {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-kuwait {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-kuwait::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-kuwait::before {
+  content:"";
+  display:block;
+  background:url(../images/kuwait2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-kuwait {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-kuwait {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of kuwait */
+
+
+
+/*select country malaysia*/
+.country1-malaysia::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-malaysia::before {
+  content:"";
+  display:block;
+  background:url(../images/malaysia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-malaysia {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-malaysia {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-malaysia::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-malaysia::before {
+  content:"";
+  display:block;
+  background:url(../images/malaysia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-malaysia {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-malaysia {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of malaysia */
+
+
+
+/*select country qatar*/
+.country1-qatar::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-qatar::before {
+  content:"";
+  display:block;
+  background:url(../images/qatar2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-qatar {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-qatar {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-qatar::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-qatar::before {
+  content:"";
+  display:block;
+  background:url(../images/qatar2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-qatar {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-qatar {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of qatar */
+
+
+
+/*select country qatar*/
+.country1-saipan::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-saipan::before {
+  content:"";
+  display:block;
+  background:url(../images/saipan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-saipan {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-saipan {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-saipan::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-saipan::before {
+  content:"";
+  display:block;
+  background:url(../images/saipan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-saipan {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-saipan {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of saipan */
+
+
+/*select country singapore*/
+.country1-singapore::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-singapore::before {
+  content:"";
+  display:block;
+  background:url(../images/singapore2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-singapore {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-singapore {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-singapore::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-singapore::before {
+  content:"";
+  display:block;
+  background:url(../images/singapore2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-singapore {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-singapore {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of singapore */
+
+/*select country taiwan*/
+.country1-taiwan::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-taiwan::before {
+  content:"";
+  display:block;
+  background:url(../images/taiwan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-taiwan {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-taiwan {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-taiwan::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-taiwan::before {
+  content:"";
+  display:block;
+  background:url(../images/taiwan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-taiwan {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-taiwan {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of taiwan */
+
+/*select country uae united arab emirates*/
+.country1-uae::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-uae::before {
+  content:"";
+  display:block;
+  background:url(../images/uae2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-uae {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-uae {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-uae::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-uae::before {
+  content:"";
+  display:block;
+  background:url(../images/uae2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-uae {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-uae {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of united arab emirates ( uae) */
+
+
+
+
+
+
+/*select country usa united states of america*/
+.country1-uk::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-uk::before {
+  content:"";
+  display:block;
+  background:url(../images/uk2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-uk {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-uk {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:12px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-uk::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-uk::before {
+  content:"";
+  display:block;
+  background:url(../images/uk2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-uk {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-uk {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:12px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of united kingdom ( UK) */
+
+
+
+
+
+/*select country usa united states of america*/
+.country1-us::after {
+  content:"";
+  display:block;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+.country1-us::before {
+  content:"";
+  display:block;
+  background:url(../images/us2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+}
+
+@media (min-width: 629px) {
+  .country1-us {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1-us {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+
+.country1inside-us::after {
+  content:"";
+  display:block;
+  background:url(../images/up-arrow10_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:right;
+  margin-right:10px;
+  line-height:1.15;
+  vertical-align:middle;
+  margin-top:5px;
+}
+
+.country1inside-us::before {
+  content:"";
+  display:block;
+  background:url(../images/us2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:0px;
+}
+@media (min-width: 629px) {
+  .country1inside-us {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside-us {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+/*end of united states of america ( usa) */
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 629px) {
+  .country1inside2 {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+    padding-bottom:8px;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside2 {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+    padding-bottom:8px;
+  }
+}
+
+@media (min-width: 629px) {
+  .country1inside {
+    margin-left:20px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+@media (max-width: 629px) {
+  .country1inside {
+    margin-left:10px;
+    line-height:1.15;
+    font-family:'MyriadPro';
+    font-size:16px;
+    padding-top:5px;
+    display:block;
+    padding-bottom:5px;
+    cursor:pointer;
+  }
+}
+
+.crctext {
+  align-self:center;
+}
+
+.closeimage {
+  width:15px;
+  height:15px;
+  display:flex;
+  line-height:1.15;
+  align-self:center;
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+#choosecountrydiv {
+  /*display:none;*/
+}
+
+@media (max-width: 628px) {
+  .rightselectcountry {
+    line-height:1.15;
+    display:flex;
+    height:50px;
+    /*width:100%;*/
+    float:right;
+    margin-right:5px;
+  }
+}
+
+@media (min-width: 629px) {
+  .rightselectcountry {
+    line-height:1.15;
+    display:flex;
+    height:50px;
+    float:right;
+  }
+}
+
+.dividerselectcr {
+  border-bottom:1px solid rgba(255,255,255,0.56);
+  line-height:1.15;
+  height:3px;
+  margin-bottom:3px;
+}
+

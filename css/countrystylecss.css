@@ -1,0 +1,198 @@
+.countrytopnames {
+  font-size:24px;
+  color:#1a1a1a;
+  line-height:1.15;
+  font-family:HelveticaNeueMedium;
+  margin-left:0;
+  display:none;
+}
+
+.bordertopnames {
+  line-height:1.15;
+  border-bottom:1px solid #959595;
+  display:none;
+}
+
+.branch-country {
+  background-color:#F6F6F6;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+
+@media (min-width: 768px) {
+  .branch-country h4 {
+    color:#dd3939;
+    font-size:22px;
+    font-weight:bold;
+    opacity:0.8;
+    text-align:left;
+  }
+}
+
+@media (max-width: 767px) {
+  .branch-country h4 {
+    color:#dd3939;
+    font-size:18px;
+    font-weight:bold;
+    opacity:0.8;
+    text-align:center;
+  }
+}
+
+.branch-country p {
+  color:#919191;
+  font-size:12px;
+}
+
+@media (min-width: 768px) {
+  .branchcountryfooter-links {
+    list-style:none;
+    padding:0;
+    /*margin-bottom:45px;*/
+    word-break:break-all;
+  }
+}
+
+@media (max-width: 767px) {
+  .branchcountryfooter-links {
+    list-style:none;
+    padding:0;
+    margin-bottom:45px;
+    word-break:break-all;
+  }
+}
+
+.branchcountryfooter-links a {
+  color:#555;
+  font-size:11px;
+}
+
+@media (min-width: 768px) {
+  .branchcountryfooter-links li {
+    margin-bottom:5px;
+    line-height:1.3;
+    font-size:12px;
+    color:#747474;
+    text-align:left;
+    font-family:MyriadPro;
+  }
+}
+
+@media (max-width: 767px) {
+  .branchcountryfooter-links li {
+    margin-bottom:5px;
+    line-height:1.3;
+    font-size:12px;
+    color:#747474;
+    text-align:center;
+    /*margin:0 auto;*/
+    /*display:block;*/
+    font-family:MyriadPro;
+  }
+}
+
+.branchcountry-footer .branchfooter-legal .copyright {
+  margin-right:60px;
+}
+
+.branchcountry-footer .branchfooter-legal .legal-links .item {
+  padding-right:13px;
+  border-right:1px solid #ccc;
+  margin:0;
+  margin-right:13px;
+}
+
+.branchcountry-footer .branchfooter-legal .legal-links .item:last-child {
+  border-right:none;
+}
+
+.branchcountry-footer .branchfooter-legal .legal-links .item h5 {
+  font-size:12px;
+  margin-top:0;
+  margin-bottom:0;
+  color:#c0c0c0;
+}
+
+.branchcountry-footer .region {
+  margin-bottom:20px;
+}
+
+.branchcountry-footer .region a {
+  color:#555;
+  font-size:11px;
+}
+
+.branchcountry-footer .region img {
+  margin-right:7px;
+}
+
+@media (min-width: 768px) {
+  .branchcountry-footer .region {
+    margin-bottom:0;
+  }
+}
+
+.branch-hr {
+  border-top:solid 1px rgba(255,255,255,0.59);
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.branchfoot-no {
+  color:#FD9C61;
+}
+
+.imagemiddle {
+  vertical-align:middle;
+  display:inline-block;
+  width:40px;
+  height:40px;
+  margin-right:10px;
+}
+
+.countrynamesM {
+  font-size:14px;
+  color:#444444;
+  line-height:1.15;
+  font-family:MyriadPro;
+  /*text-align:center;*/
+  /*display:inline-block;*/
+  /*width:50px;*/
+  display:inline-flex;
+  /*text-align:justify;*/
+  width:100px;
+  vertical-align:middle;
+  /*max-width:100px;*/
+}
+
+.countrytable {
+  display:flex;
+  vertical-align:middle;
+  margin-bottom:25px;
+}
+
+@media (max-width: 576px) {
+  .countrytable {
+    display:flex;
+    vertical-align:middle;
+    margin-bottom:-15px;
+  }
+}
+
+@media (min-width:576px) and (max-width: 768px) {
+  .countrytable {
+    display:flex;
+    vertical-align:middle;
+    margin-bottom:10px;
+  }
+}
+
+.container.countrymargintop {
+  margin-top:20px;
+}
+
+.branchcountry-footer {
+  padding-bottom:80px;
+  margin-top:-10px;
+}
+

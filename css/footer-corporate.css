@@ -1,0 +1,2293 @@
+.removed-country{
+  display: none;
+  pointer-events: none;
+}
+
+.solo-lbcfooter{
+    padding-top:10px;
+}
+
+
+.page-footer {
+  background-color:#efefef;
+  padding-top:20px;
+  padding-bottom:10px;
+  /*background-image:url(../../assets/img/bg.png);*/
+  background-repeat:repeat;
+  opacity:1;
+  /*bottom:0px;*/
+  /*position:relative;*/
+  width:100%;
+  position:absolute;
+  /*height:120px;*/
+  display:block;
+
+}
+
+.page-footer h4 {
+  color:#281908;
+  font-size:14px;
+  font-weight:bold;
+  opacity:0.8;
+  font-family:'MyriadPro';
+}
+
+.page-footer p {
+  color:rgba(23,14,5,0.8);
+  font-size:12px;
+  line-height:1.15;
+  /*display:block;*/
+}
+
+.page-footer .footer-links {
+  list-style:none;
+  padding:0;
+  margin-bottom:45px;
+  word-break:break-all;
+  font-family:'Myriad Pro Regular', sans-serif;
+}
+
+.page-footer .footer-links a {
+  color:#555;
+  font-size:11px;
+}
+
+.page-footer .footer-links li {
+  margin-bottom:5px;
+  line-height:1.3;
+  font-size:12px;
+  color:#5c5c5c;
+  font-family:'MyriadPro';
+}
+
+.page-footer .footer-links li a {
+  margin-bottom:5px;
+  line-height:1.3;
+  font-size:12px;
+  color:#5c5c5c;
+  font-family:'MyriadPro';
+}
+
+.page-footer .footer-legal .copyright {
+  margin-right:60px;
+}
+
+.page-footer .footer-legal .legal-links .item {
+  padding-right:13px;
+  border-right:1px solid rgba(92,92,92,0.2);
+  margin:0;
+  margin-right:13px;
+}
+
+.page-footer .footer-legal .legal-links .item:last-child {
+  border-right:none;
+}
+
+.page-footer .footer-legal .legal-links .item h5 {
+  font-size:12px;
+  margin-top:0;
+  margin-bottom:0;
+  color:rgba(23,14,5,0.8);
+  line-height:1.15;
+}
+
+.page-footer .region {
+  margin-bottom:20px;
+}
+
+.page-footer .region a {
+  color:#555;
+  font-size:11px;
+}
+
+.page-footer .region img {
+  margin-right:7px;
+}
+
+@media (min-width: 768px) {
+  .page-footer .region {
+    margin-bottom:0;
+  }
+}
+
+.footer-hr {
+  border-top:solid 1px rgba(92,92,92,0.1);
+  margin-top:1rem;
+  margin-bottom:1rem;
+  /*max-width:880px;*/
+  /*float:left;*/
+}
+
+.footer-legal {
+  /*margin-top:5px;*/
+  /*display:block;*/
+  width:100%;
+  /*z-index:1025;*/
+}
+
+@media (max-width: 776px) {
+  .countryfootbg {
+    display:inline-block;
+    width:auto;
+    line-height:1.15;
+    /*float:right;*/
+    margin-top:10px;
+  }
+}
+
+@media (min-width: 776px) {
+  .countryfootbg {
+    display:inline-block;
+    line-height:1.15;
+    margin-top:10px;
+  }
+}
+
+.copyrighty::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1;
+  content:"";
+  display:block;
+  background:url(../images/lbcsm_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-4px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-2::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/ph2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  /*margin-top:-3px;*/
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/ph2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  /*margin-top:-3px;*/
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*country static au*/
+
+
+
+
+.countryfoot-text-au::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/australia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-au {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-au::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/australia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-au:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-au {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+/*country static bahrain*/
+.countryfoot-text-bahrain::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/bahrain2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-bahrain {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-bahrain::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/bahrain2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-bahrain:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-bahrain {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+/*country static brunei*/
+.countryfoot-text-brunei::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/brunei2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-brunei {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-brunei::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/brunei2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-brunei:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-brunei {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+/*country static canada*/
+.countryfoot-text-canada::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/canada2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-canada {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-canada::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/canada2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-canada:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-canada {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+/*country static guam*/
+.countryfoot-text-guam::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/guam2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-guam {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-guam::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/guam2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-guam:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-guam {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+/*country static hongkong*/
+.countryfoot-text-hongkong::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/hong-kong2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-hongkong {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-hongkong::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/hong-kong2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-hongkong:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-hongkong {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+/*country static italy*/
+.countryfoot-text-italy::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/italy2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-italy {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-italy::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/italy2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-italy:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-italy {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+
+/*country static malta*/
+.countryfoot-text-malta::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/malta2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-malta {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-malta::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/malta2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-malta:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-malta {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*End country static malta*/
+
+
+
+
+
+
+
+
+
+/*country static switzerland*/
+.countryfoot-text-switzerland::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/switzerland2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-switzerland {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-switzerland::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/switzerland2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-switzerland:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-switzerland {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*End country static switzerland*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*country static germany*/
+.countryfoot-text-germany::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/germany2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-germany {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-germany::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/germany2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-germany:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-germany {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*End country static germany*/
+
+
+
+
+
+
+
+
+/*country static spain*/
+.countryfoot-text-spain::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/spain2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-spain {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-spain::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/spain2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-spain:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-spain {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*End country static spain*/
+
+
+
+
+
+
+
+
+
+
+/*country static france*/
+.countryfoot-text-france::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/france2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-france {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-france::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/france2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-france:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-france {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*End country static france*/
+
+
+
+
+
+
+
+/*country static austria*/
+.countryfoot-text-austria::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/austria2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-austria {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-austria::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/austria2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-austria:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-austria {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*End country static austria*/
+
+
+
+
+
+/*country static japan*/
+.countryfoot-text-japan::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/japan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-japan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-japan::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/japan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-japan:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-japan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+/*country static korea*/
+.countryfoot-text-korea::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/korea2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-korea {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-korea::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/korea2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-korea:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-korea {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+/*country static saudi (ksa)*/
+.countryfoot-text-saudi::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/saudiarabia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-saudi {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-saudi::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/saudiarabia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-saudi:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-saudi {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+/*country static kuwait*/
+.countryfoot-text-kuwait::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/kuwait2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-kuwait {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-kuwait::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/kuwait2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-kuwait:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-kuwait {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+/*country static malaysia*/
+.countryfoot-text-malaysia::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/malaysia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-malaysia {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-malaysia::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/malaysia2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-malaysia:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-malaysia {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+/*country static qatar*/
+.countryfoot-text-qatar::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/qatar2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-qatar {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-qatar::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/qatar2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-qatar:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-qatar {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+/*country static singapore*/
+.countryfoot-text-singapore::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/singapore2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-singapore {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-singapore::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/singapore2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-singapore:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-singapore {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+/*country static taiwan*/
+.countryfoot-text-taiwan::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/taiwan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-taiwan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-taiwan::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/taiwan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-taiwan:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-taiwan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*country static macau*/
+.countryfoot-text-macau::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/macau2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-macau {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-macau::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/macau2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-macau:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-taiwan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+/*END country static macau*/
+
+
+
+
+
+
+
+/*country static united arab (uae)*/
+.countryfoot-text-uae::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/uae2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-uae {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-uae::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/uae2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-uae:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-uae {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+/*country static united kingdom (uk)*/
+.countryfoot-text-uk::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/uk2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-uk {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-uk::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/uk2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-uk:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-uk {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+/*country static United States (usa)*/
+.countryfoot-text-us::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/us2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-us {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-us::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/us2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-us:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-us {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+/*country static saipan*/
+.countryfoot-text-saipan::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/saipan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+
+.countryfoot-text-saipan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:inline-block;
+  float:right;
+  position:relative;
+}
+
+
+.countryfoot-text-2-saipan::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/saipan2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  margin-top:-3px;
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2-saipan:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2-saipan {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+@media(min-width: 686px){
+
+.countryfoot-text-2::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/ph2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  /*margin-top:-3px;*/
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2 {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+}
+
+
+
+
+
+@media(max-width: 686px){
+
+.countryfoot-text-2::before {
+  font-size:12px;
+  font-family:MYRIADPRO-REGULAR;
+  line-height:1.15;
+  content:"";
+  display:block;
+  background:url(../images/ph2_1.png) no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  /*margin-top:-3px;*/
+  color:rgba(23,14,5,0.8);
+}
+.countryfoot-text-2:hover {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:block;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+}
+
+.countryfoot-text-2 {
+  font-size:12px;
+  font-family:'MyriadPro';
+  line-height:1.15;
+  color:rgba(23,14,5,0.8);
+  display:flex;
+  vertical-align:middle;
+  width:100%;
+  outline:none;
+  text-decoration:none;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+}
+
+
+
+
+
+
+
+
+#gocountry-1 {
+  cursor:pointer;
+}
+
+#gocountry {
+  cursor:pointer;
+}
+
+#valuespage-1 {
+  cursor:pointer;
+}
+
+#valuespage {
+  cursor:pointer;
+}
+
+.copyrighty {
+  line-height:1;
+  color:rgba(23,14,5,0.8);
+  font-size:12px;
+  display:inline-block;
+  margin-bottom:0;
+  /*margin-top:10px;*/
+  /*max-width:400px;*/
+  /*width:100%;*/
+  font-family:'MyriadPro';
+}
+
+.privacypolicy {
+  line-height:1;
+  color:rgba(23,14,5,0.8);
+  font-size:12px;
+  display:inline-block;
+  margin-bottom:0;
+  /*margin-top:10px;*/
+  /*max-width:50px;*/
+  padding-right:10px;
+  border-right:1px solid rgba(92,92,92,0.2);
+  font-family:'MyriadPro';
+  visibility:hidden;
+}
+
+.termsofuse {
+  line-height:1;
+  color:rgba(23,14,5,0.8);
+  font-size:12px;
+  display:inline-block;
+  margin-bottom:0;
+  /*margin-top:10px;*/
+  /*max-width:300px;*/
+  /*width:100px;*/
+  padding-left:10px;
+  font-family:'MyriadPro';
+  visibility:hidden;
+}
+
+@media (min-width: 1058px) {
+  .newfoothr {
+    border-top:solid 1px rgba(92,92,92,0.1);
+    max-width:990px;
+    padding-top:10px;
+  }
+}
+
+@media (max-width: 1058px) {
+  .newfoothr {
+    /*border-top:solid 1px rgba(92,92,92,0.1);*/
+    max-width:990px;
+    /*padding-top:10px;*/
+  }
+}
+
+.priva-terms {
+  display:block;
+  /*max-width:580px;*/
+  /*min-width:200px;*/
+  width:100%;
+  /*padding-top:5px;*/
+  /*padding-bottom:5px;*/
+}
+
+@media (min-width: 1058px) {
+  #sm-country-show {
+    display:none;
+  }
+}
+
+@media (max-width: 1058px) {
+  #sm-country-show {
+    display:flex;
+    width:100%;
+    line-height:1.15;
+    height:50px;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+  }
+}
+
+@media (max-width: 1058px) {
+  #sm-country {
+    display:none;
+  }
+}
+
+@media (min-width: 1058px) {
+  #sm-country {
+    display:block;
+    height:20px;
+  }
+}
+
+@media (max-width: 1058px) {
+  .prterms {
+    display:none;
+    /*width:100%;*/
+    /*line-height:1.15;*/
+    /*height:30px;*/
+    /*align-items:center;*/
+  }
+}
+
+@media (min-width: 1058px) {
+  .prterms {
+    display:block;
+    /*width:100%;*/
+    /*line-height:1.15;*/
+    /*height:30px;*/
+    /*align-items:center;*/
+  }
+}
+
+@media (max-width: 1058px) {
+  .prterms-show {
+    display:flex;
+    width:100%;
+    line-height:1.15;
+    height:30px;
+    align-items:center;
+  }
+}
+
+@media (min-width: 1058px) {
+  .prterms-show {
+    display:none;
+    width:100%;
+    /*line-height:1.15;*/
+  }
+}
+
+.country-link:hover {
+  text-decoration:none;
+  outline:none;
+}
+
+.country-link {
+  text-decoration:none;
+  outline:none;
+}
+

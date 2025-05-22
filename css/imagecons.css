@@ -1,0 +1,16 @@
+.imagesbodycon {
+  display:flex;
+  margin:0 auto;
+  width:100%;
+}
+
+.letsconnect-contact {
+  color:#1581BF;
+  font-size:18px;
+  text-align:center;
+  display:block;
+  line-height:1.25;
+  padding-bottom:10px;
+  font-family:'MyriadPro';
+}
+

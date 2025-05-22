@@ -1,0 +1,386 @@
+.br-bot-5{
+  margin-bottom: 5px;
+}
+.br-bot-10{
+  margin-bottom: 10px;
+}
+.br-bot-15{
+  margin-bottom: 15px;
+}
+.br-bot-20{
+  margin-bottom:20px;
+}
+.br-bot-25{
+  margin-bottom: 25px;
+}
+.br-bot-30{
+  margin-bottom: 30px;
+}
+.br-bot-35{
+  margin-bottom: 35px;
+}
+.br-bot-40{
+  margin-bottom: 40px;
+}
+.br-bot-45{
+  margin-bottom: 45px;
+}
+.br-bot-50{
+  margin-bottom: 50px;
+}
+.br-bot-55{
+  margin-bottom: 55px;
+}
+
+
+.br-size-40{
+  width: 40%
+}
+.br-size-60{
+  width: 60%
+}
+
+.br-size-30{
+  width: 30%
+}
+.br-size-70{
+  width: 70%
+}
+.br-30-70-small{
+  width: 17.5%;
+}
+.br-30-70-big{
+  width: 30%;
+}
+
+.brochure-container{
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing:border-box;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.brochure-title-div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.brochure-seair-img{
+  width: 80px;
+  margin-right: 25px;
+}
+
+@media(min-width:766px) {
+  .brochure-title-big{
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size: 3vw;
+    font-weight: bold;
+    color: #d11e48;
+  }
+  .brochure-title-reg{
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size: 2.4vw;
+    color: #d11e48;
+  }
+}
+@media(max-width:766px) {
+
+  .brochure-title-big{
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size: 7vw;
+    font-weight: bold;
+    color: #d11e48;
+  }
+  .brochure-title-reg{
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size: 5.4vw;
+    color: #d11e48;
+  }
+}
+.br-table{
+  width: 100%;
+  display: block;
+  line-height: 1.24;
+  overflow-y: auto;
+}
+.br-block{
+  line-height: 1.24;
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.br-block-center{
+  line-height: 1.24;
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.br-vat{
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 18px;
+  color: #7d7d7d;
+}
+.br-text{
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 20px;
+  color: #7d7d7d;
+}
+.br-text-red{
+  padding: 5px 15px;
+  background-color: #d11e47;
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 20px;
+  color: #fff;
+}
+.br-images-full{
+  width: 100%;
+}
+.br-images-book{
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.br-3-img{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.br-3-img-img{
+  width: 100%;
+  display: block;
+}
+
+
+.br-call{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.br-call-img img{
+width: 100%;
+display: block;
+}
+
+.br-call-right{
+width: auto;
+margin-left: 25px;
+display: block;
+}
+.br-call-text{
+  display: table;
+  /*background-color: #facbcc;*/
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 20px;
+  color: #414143;
+}
+.br-call-text-2{
+  display: table;
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 22px;
+  color: #414143;
+}
+.br-red-block{
+  width: 100%;
+  padding: 25px;
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size:22px;
+  color: #fff;
+  background-color: #D31245;
+  text-align: center;
+}
+
+
+@media(min-width:766px) {
+  .br-3-img-set{
+    display: block;
+    max-width: 130px;
+    width: 100%;
+  }
+  .br-call-img{
+    max-width: 110px;
+    width: 100%;
+  }
+  .br-call-number{
+    text-align: center;
+    display: table;
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size: 3.5vw;
+    color: #414143;
+    font-weight: bold;
+  }
+
+  .br-red-big-font{
+    width: 100%;
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size:3.5vw;
+    color: #C22127;
+    text-align: center;
+    font-weight: bold;
+  }
+  .br-orange-big-font{
+    width: 100%;
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size:3.2vw;
+    color: #F06638;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+@media(max-width:766px) {
+  .br-3-img-set{
+    display: block;
+    max-width: 100px;
+    width: 100%;
+  }
+  .br-call-img{
+    max-width: 80px;
+    width: 100%;
+  }
+  .br-call-number{
+    text-align: center;
+    display: table;
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size: 8vw;
+    color: #414143;
+    font-weight: bold;
+  }
+
+  .br-red-big-font{
+    width: 100%;
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size:6vw;
+    color: #C22127;
+    text-align: center;
+    font-weight: bold;
+  }
+  .br-red-big-font{
+    width: 100%;
+    line-height: 1.24;
+    font-family: 'MyriadPro';
+    font-size:5.5vw;
+    color: #F06638;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.br-footer-1{
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.br-solo-lbc{
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.br-prohibited-text{
+  line-height: 1.24;
+font-family: 'MyriadPro';
+font-size: 20px;
+color: #7d7d7d;
+}
+
+
+
+
+@media(min-width:766px) {
+  .brochure-title-ksa{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 7vw;
+  font-weight: bold;
+  text-align: center;
+  color: #d11e48;
+  }
+  .br-prohibited-title{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  color: #d11e48;
+  }
+  .br-prohibited-sub{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 1.4vw;
+/*  background:#facbcc;*/
+  text-align: center;
+  color: #F69220;
+    display: table;
+  }
+}
+@media(max-width:766px) {
+  .brochure-title-ksa{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 10vw;
+  font-weight: bold;
+  text-align: center;
+  color: #d11e48;
+  }
+  .br-prohibited-title{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 8vw;
+  font-weight: bold;
+  text-align: center;
+  color: #d11e48;
+  }
+  .br-prohibited-sub{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 2.8vw;
+  /*background:#facbcc;*/
+  text-align: center;
+  color: #F69220;
+    display: table;
+  }
+}

@@ -1,0 +1,221 @@
+.bodyleader {
+  width:100%;
+  display:block;
+  /*height:auto;*/
+  padding-top:50px;
+}
+
+.leadershipcontain {
+  max-width:900px;
+  margin:0 auto;
+  display:block;
+  height:auto;
+}
+
+.theexecutive {
+  font-family:'MyriadPro';
+  font-size:32px;
+  color:#d80a28;
+  text-align:center;
+  display:block;
+  /*position:relative;*/
+  line-height:1.24;
+  margin-top:50px;
+}
+
+.executiveimgcontain {
+  display:block;
+  margin-top:50px;
+  line-height:1.24;
+  /*position:relative;*/
+}
+
+@media (max-width: 768px) {
+  .imgleader {
+    max-width:220px;
+    padding:5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .imgleader {
+    width:96%;
+    padding:5px;
+  }
+}
+
+.execnametitle {
+  font-family:'MyriadPro';
+  font-size:14px;
+  line-height:1.24;
+  text-align:center;
+  display:block;
+  color:#0070c9;
+  margin-top:10px;
+  padding-left:5px;
+  padding-right:5px;
+  max-width:180px;
+  margin:0 auto;
+  padding-top:5px;
+}
+
+.execname {
+  font-family:'MyriadPro';
+  font-size:20px;
+  line-height:1.24;
+  text-align:center;
+  display:block;
+  color:#281908;
+  /*margin-top:10px;*/
+  max-width:180px;
+  margin:0 auto;
+  padding-top:10px;
+}
+
+.rowexect {
+  margin-bottom:50px;
+  /*margin-left:15px;*/
+  /*padding-right:15px;*/
+  text-align:center;
+  /*padding-top:80px;*/
+}
+
+.leadershipprofilebg {
+  background:#f3f3f3;
+  height:auto;
+}
+
+@media (max-width: 576px) {
+  .leadershipprofileimg {
+    max-width:250px;
+    margin:0 auto;
+    display:block;
+    padding-top:80px;
+    width:100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .leadershipprofileimg {
+    max-width:340px;
+    margin:0 auto;
+    display:block;
+    padding-top:80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .leadershipprofilename {
+    font-family:'MyriadPro';
+    font-size:32px;
+    display:block;
+    line-height:1.24;
+    text-align:center;
+    margin-top:20px;
+    color:#281908;
+    padding-left:5px;
+    padding-right:5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .leadershipprofilename {
+    font-family:'MyriadPro';
+    font-size:42px;
+    display:block;
+    line-height:1.24;
+    text-align:center;
+    margin-top:20px;
+    color:#281908;
+  }
+}
+
+@media (max-width: 576px) {
+  .leadershipprofiletitle {
+    font-family:'MyriadPro';
+    font-size:14px;
+    display:block;
+    line-height:1.24;
+    text-align:center;
+    /*margin-top:20px;*/
+    color:#0070c9;
+  }
+}
+
+@media (min-width: 576px) {
+  .leadershipprofiletitle {
+    font-family:'MyriadPro';
+    font-size:18px;
+    display:block;
+    line-height:1.24;
+    text-align:center;
+    /*margin-top:20px;*/
+    color:#0070c9;
+    padding-top:5px;
+  }
+}
+
+@media (max-width: 876px) {
+  .leadershipprofilemessage {
+    line-height:1.24;
+    display:block;
+    margin:0 auto;
+    max-width:500px;
+    padding-top:40px;
+    font-family:'MyriadPro';
+    color:#281908;
+    font-size:18px;
+    text-align:center;
+    padding-left:25px;
+    padding-right:25px;
+  }
+}
+
+@media (min-width: 876px) {
+  .leadershipprofilemessage {
+    line-height:1.24;
+    display:block;
+    margin:0 auto;
+    max-width:500px;
+    padding-top:40px;
+    font-family:'MyriadPro';
+    color:#281908;
+    font-size:18px;
+    text-align:center;
+  }
+}
+
+.blankspace50px {
+  height:50px;
+  display:block;
+}
+
+.leadershiphead {
+  font-family:'MyriadPro';
+  color:#fff;
+  font-size:22px;
+  line-height:1.24;
+  display:block;
+  padding-top:14px;
+}
+
+#leadershippage-1 {
+  cursor:pointer;
+}
+
+#newspage-1 {
+  cursor:pointer;
+}
+
+.newscontaintlatest {
+  display:flex;
+  margin:0 auto;
+  max-width:900px;
+  min-height:800px;
+}
+
+.newslatestspace50 {
+  display:block;
+  height:50px;
+}
+

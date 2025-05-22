@@ -1,0 +1,150 @@
+.codcop-ss {
+  background-color:#fff;
+  /*height:662px;*/
+}
+
+.codcop-ss3 {
+  background-image:url("../images/codcop-ss3.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  width:100%;
+  height:810px;
+  /*background-clip:border-box;*/
+  display:none;
+}
+
+.codcop-ss2 {
+  background-image:url("../images/codcop-ss2.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  width:100%;
+  height:810px;
+  background-clip:border-box;
+  display:none;
+}
+
+@media (min-width: 768px) {
+  .codcop-ss1 {
+    background-image:url("../images/codcop-ss1a.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:100%;
+    height:810px;
+  }
+}
+
+@media (max-width: 767px) {
+  .codcop-ss1 {
+    background-image:url("../images/codcop-ss1a1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:100%;
+    height:810px;
+  }
+}
+
+.d-inline-block.ss-head-2 {
+  text-align:center;
+  width:100%;
+}
+
+.d-inline-block.ss-head-1 {
+  text-align:center;
+  width:100%;
+}
+
+.ss-head-text-2 {
+  font-size:52px;
+  font-family:'MyriadPro';
+  margin-top:35px;
+  color:#d80a28;
+}
+
+.ss-head-text-1 {
+  font-size:52px;
+  font-family:'MyriadPro';
+  margin-top:35px;
+  color:#d80a28;
+}
+
+.ss-2-letstalk {
+  color:#d80a28;
+  font-family:'MyriadPro';
+  font-size:26px;
+  font-weight:600;
+}
+
+.ss-1-letstalk {
+  color:#DD3939;
+  font-family:'MyriadPro';
+  font-size:26px;
+}
+
+@media (min-width: 768px) {
+  .ss-head-text2-2 {
+    font-size:26px;
+    font-family:'MyriadPro';
+    text-align:center;
+    width:100%;
+    padding-left:29%;
+    padding-right:29%;
+    color:#ffffff;
+    margin-top:50px;
+    line-height:1.5;
+  }
+}
+
+@media (max-width: 767px) {
+  .ss-head-text2-2 {
+    font-size:26px;
+    font-family:'MyriadPro';
+    text-align:center;
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+    margin-top:50px;
+    line-height:1.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .ss-head-text2-1 {
+    font-size:26px;
+    font-family:'MyriadPro';
+    text-align:center;
+    width:100%;
+    padding-left:28%;
+    padding-right:28%;
+    color:#281908;
+    margin-top:30px;
+    line-height:1.5;
+  }
+}
+
+@media (max-width: 767px) {
+  .ss-head-text2-1 {
+    font-size:26px;
+    font-family:'MyriadPro';
+    text-align:center;
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    color:#281908;
+    margin-top:30px;
+    line-height:1.5;
+  }
+}
+
+#codcoppage {
+  cursor:pointer;
+}
+
+#codss {
+  cursor:pointer;
+}
+

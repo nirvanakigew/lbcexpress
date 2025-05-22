@@ -1,0 +1,98 @@
+.navorange{
+width: 100%;
+position: relative;
+top: 0;
+background: #ff9400;
+opacity: 1;
+}
+
+
+@media (min-width:766px){
+.navorange.stick{
+width: 100%;
+position: sticky;
+top: 0px;
+height: 50px;
+background: #ff9400;
+z-index: 1028;
+opacity: 1;
+}
+
+.orange-flex{
+  height: 51px;
+  padding-left: 35px;
+  padding-right: 15px;
+display: flex;
+align-items: center;
+width: 100%;
+}
+}
+@media (max-width:766px){
+.navorange.stick{
+width: 100%;
+position: sticky;
+top:0px;
+height: 50px;
+background: #ff9400;
+z-index: 1028;
+opacity: 1;
+}
+
+.navorange.stick.hide{
+width: 100%;
+position: sticky;
+top: 0px;
+height: 50px;
+background: #ff9400;
+z-index: 1024;
+opacity: 1;
+}
+
+.orange-flex{
+  height: 51px;
+  padding-left: 15px;
+  padding-right: 15px;
+display: flex;
+align-items: center;
+width: 100%;
+}
+}
+.navorange.hide{
+  z-index: 1021;
+width: 100%;
+position: relative;
+background: #ff9400;
+opacity: 1;
+pointer-events: none;
+}
+
+
+.orange-title{
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 18px;
+  color: #fff;
+}
+.orange-talktous, .orange-talktous:hover{
+  cursor: pointer;
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+  font-size: 16px;
+  color: #fff;
+  margin-left: auto;
+  padding: 5px 10px;
+  background: #d00149;
+  border-radius: 10px;
+  outline: 0;
+  text-decoration: none;
+}
+
+.orange-talktous a, .orange-talktous a:hover{
+  font-size: 16px;
+  color: #fff;
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.24;
+  font-family: 'MyriadPro';
+}

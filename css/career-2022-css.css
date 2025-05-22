@@ -1,0 +1,462 @@
+.slider {
+  width: 100%;
+
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  display: none;
+}
+
+/*
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+*/
+.slick-current {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-size: 52px;
+}
+
+
+
+
+
+
+
+  /*select custom 1*/
+
+  .careers-select-ext-no-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+
+  @media (max-width:780px){
+    .careersv2-select-set-1{
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      width: 100%;
+      /*! margin-left: auto; */
+      /*! margin-right: auto; */
+      justify-content: center;
+      background: #f26539;
+      /*border: 1px solid #cac4c4;*/
+      border-radius: 5px;
+    }
+
+
+
+    .careersv2-select-sets-drop-1{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+
+      min-height: 30px;
+      max-height: 50px;
+
+    }
+
+  }
+  @media (min-width:780px){
+    .careersv2-select-set-1{
+      display: flex;
+      align-items: center;
+       max-width: 250px;
+      width: 100%;
+      /*! margin-left: auto; */
+      /*! margin-right: auto; */
+      justify-content: center;
+      background: #f26539;
+    /*  border: 1px solid #cac4c4;*/
+      border-radius: 5px;
+    }
+
+
+    .careersv2-select-sets-drop-1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 30px;
+    }
+
+  }
+
+
+
+
+
+
+  .careersv2-exttitle-date{
+
+    color: #fff;
+    font-family: 'MyriadPro';
+    font-size: 16px;
+    line-height: 1.24;
+  width: 100%;
+  }
+  .careersv2-exttitle-date span{
+    color: #fff !important;
+  }
+  .careers-sets-contain-1{
+    margin-top: 35px;
+    z-index: 1024;
+    position:absolute;
+    display:none;
+    padding:15px;
+  background:#fff;
+  line-height: 1.24;
+  width: 100%;
+  overflow-y: auto;
+  max-height:200px;
+  border: 1px solid #b9b9b9;
+  }
+  .careersv2-wahp-1, .ext-wahp-date:hover{
+    width: 100%;
+    cursor: pointer;
+    opacity:1;
+    line-height: 1.24;
+    padding-bottom: 5px;
+  }
+  .careersv2-select-set-list-1{
+    color: #2e2e2e;
+    font-family: 'MyriadPro';
+    font-size: 16px;
+    line-height: 1.24;
+  width: 100%;
+  display: block;
+  }
+  .careersv2-select-set-list-1-small{
+    display: block;
+    color: #2e2e2e;
+    font-family: 'MyriadPro';
+    font-size: 12px;
+    line-height: 1.24;
+  width: 100%;
+  }
+
+
+  .careersv2-select-sets-drop-1 .careersv2-select-arrow-done{
+    position: absolute;
+    right: 10px;
+    width:15px;
+    height: 10px;
+    top:40%;
+    margin-right: 3px;
+  }
+
+  .careersv2-select-sets-drop-1.actlive .careersv2-select-arrow-done{
+       transform: rotate(180deg);
+  }
+
+
+  /*end select custom 1*/
+
+
+
+
+
+    /*select custom 2*/
+
+    .careers-select-ext-no-border-2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    }
+
+
+    @media (max-width:780px){
+      .careersv2-select-set-2{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        width: 100%;
+        /*! margin-left: auto; */
+        /*! margin-right: auto; */
+        justify-content: center;
+        background: #f26539;
+        /*border: 1px solid #cac4c4;*/
+        border-radius: 5px;
+      }
+
+
+
+      .careersv2-select-sets-drop-2{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+
+        min-height: 30px;
+        max-height: 50px;
+
+      }
+
+    }
+    @media (min-width:780px){
+      .careersv2-select-set-2{
+        display: flex;
+        align-items: center;
+         max-width: 250px;
+        width: 100%;
+        /*! margin-left: auto; */
+        /*! margin-right: auto; */
+        justify-content: center;
+        background: #f26539;
+      /*  border: 1px solid #cac4c4;*/
+        border-radius: 5px;
+      }
+
+
+      .careersv2-select-sets-drop-2{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+
+      height: 30px;
+      }
+
+    }
+
+
+
+
+
+
+    .careersv2-exttitle-date-2{
+
+      color: #fff;
+      font-family: 'MyriadPro';
+      font-size: 16px;
+      line-height: 1.24;
+    width: 100%;
+    }
+    .careersv2-exttitle-date-2 span{
+      color: #fff !important;
+    }
+    .careers-sets-contain-2{
+      margin-top: 35px;
+      z-index: 1024;
+      position:absolute;
+      display:none;
+      padding:15px;
+    background:#fff;
+    line-height: 1.24;
+    width: 100%;
+    overflow-y: auto;
+    max-height:200px;
+    border: 1px solid #b9b9b9;
+    }
+    .careersv2-wahp-2, .ext-wahp-date:hover{
+      width: 100%;
+      cursor: pointer;
+      opacity:1;
+      line-height: 1.24;
+      padding-bottom: 5px;
+    }
+    .careersv2-select-set-list-2{
+      color: #2e2e2e;
+      font-family: 'MyriadPro';
+      font-size: 16px;
+      line-height: 1.24;
+    width: 100%;
+    display: block;
+    }
+    .careersv2-select-set-list-2-small{
+      display: block;
+      color: #2e2e2e;
+      font-family: 'MyriadPro';
+      font-size: 12px;
+      line-height: 1.24;
+    width: 100%;
+    }
+
+
+    .careersv2-select-sets-drop-2 .careersv2-select-arrow-done{
+      position: absolute;
+      right: 10px;
+      width:15px;
+      height: 10px;
+      top:40%;
+      margin-right: 3px;
+    }
+
+    .careersv2-select-sets-drop-2.actlive .careersv2-select-arrow-done{
+         transform: rotate(180deg);
+    }
+
+
+    /*end select custom 2*/
+
+
+
+    /*select custom 3*/
+
+    .careers-select-ext-no-border-3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    }
+
+
+    @media (max-width:780px){
+      .careersv2-select-set-3{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        width: 100%;
+        /*! margin-left: auto; */
+        /*! margin-right: auto; */
+        justify-content: center;
+        background: #f26539;
+        /*border: 1px solid #cac4c4;*/
+        border-radius: 5px;
+      }
+
+
+
+      .careersv2-select-sets-drop-3{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+
+        min-height: 30px;
+        max-height: 50px;
+
+      }
+
+    }
+    @media (min-width:780px){
+      .careersv2-select-set-3{
+        display: flex;
+        align-items: center;
+         max-width: 250px;
+        width: 100%;
+        /*! margin-left: auto; */
+        /*! margin-right: auto; */
+        justify-content: center;
+        background: #f26539;
+      /*  border: 1px solid #cac4c4;*/
+        border-radius: 5px;
+      }
+
+
+      .careersv2-select-sets-drop-3{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+
+      height: 30px;
+      }
+
+    }
+
+
+
+
+
+
+    .careersv2-exttitle-date-3{
+
+      color: #fff;
+      font-family: 'MyriadPro';
+      font-size: 16px;
+      line-height: 1.24;
+    width: 100%;
+    }
+    .careersv2-exttitle-date-3 span{
+      color: #fff !important;
+    }
+    .careers-sets-contain-3{
+      margin-top: 35px;
+      z-index: 1024;
+      position:absolute;
+      display:none;
+      padding:15px;
+    background:#fff;
+    line-height: 1.24;
+    width: 100%;
+    overflow-y: auto;
+    max-height:200px;
+    border: 1px solid #b9b9b9;
+    }
+    .careersv2-wahp-3, .ext-wahp-date:hover{
+      width: 100%;
+      cursor: pointer;
+      opacity:1;
+      line-height: 1.24;
+      padding-bottom: 5px;
+    }
+    .careersv2-select-set-list-3{
+      color: #2e2e2e;
+      font-family: 'MyriadPro';
+      font-size: 16px;
+      line-height: 1.24;
+    width: 100%;
+    display: block;
+    }
+    .careersv2-select-set-list-3-small{
+      display: block;
+      color: #2e2e2e;
+      font-family: 'MyriadPro';
+      font-size: 12px;
+      line-height: 1.24;
+    width: 100%;
+    }
+
+
+    .careersv2-select-sets-drop-3 .careersv2-select-arrow-done{
+      position: absolute;
+      right: 10px;
+      width:15px;
+      height: 10px;
+      top:40%;
+      margin-right: 3px;
+    }
+
+    .careersv2-select-sets-drop-3.actlive .careersv2-select-arrow-done{
+         transform: rotate(180deg);
+    }
+
+
+    /*end select custom 3*/

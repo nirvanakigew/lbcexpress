@@ -1,0 +1,187 @@
+#lestestpage-1 {
+  cursor:pointer;
+}
+
+.dropdown-el {
+  /*margin-top:20vh;*/
+  width:120px;
+  position:relative;
+  display:inline-block;
+  margin-right:1em;
+  min-height:2em;
+  max-height:2em;
+  overflow:hidden;
+  /*top:-20px;*/
+  cursor:pointer;
+  text-align:left;
+  white-space:nowrap;
+  color:#fff;
+  outline:none;
+  /*border:.06em solid transparent;*/
+  border-radius:1em;
+  /*background-color:#cde4f5;*/
+  /*transition:0.3s all ease-in-out;*/
+}
+
+.dropdown-el input {
+  display:none;
+}
+
+.dropdown-el label {
+  /*border-top:.06em solid #d9d9d9;*/
+  display:block;
+  height:2em;
+  line-height:2em;
+  padding-left:1em;
+  padding-right:3em;
+  cursor:pointer;
+  position:relative;
+  /*transition:0.3s color ease-in-out;*/
+}
+
+.dropdown-el label:nth-child(2) {
+  margin-top:2em;
+  /*border-top:.06em solid #d9d9d9;*/
+}
+
+.dropdown-el input:checked + label {
+  display:block;
+  border-top:none;
+  position:absolute;
+  top:0;
+  padding-left:0;
+}
+
+.dropdown-el input:checked + label:nth-child(2) {
+  margin-top:0;
+  position:relative;
+}
+
+.dropdown-el::after {
+  content:"";
+  position:absolute;
+  right:0.8em;
+  top:10px;
+  /*border:0.3em solid #3694d7;*/
+  /*border-color:#3694d7 transparent transparent transparent;*/
+  /*transition:.4s all ease-in-out;*/
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  /*display:block;*/
+  /*float:right;*/
+  height:20px;
+  width:20px;
+}
+
+.dropdown-el.expanded {
+  /*border:0.06em solid #3694d7;*/
+  /*background:#fff;*/
+  /*border-radius:.25em;*/
+  padding:0;
+  /*box-shadow:rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;*/
+  max-height:15em;
+}
+
+.dropdown-el.expanded label {
+  /*border-top:.06em solid #d9d9d9;*/
+}
+
+.dropdown-el.expanded label:hover {
+  /*color:#3694d7;*/
+}
+
+.dropdown-el.expanded input:checked + label {
+  /*color:#3694d7;*/
+}
+
+.dropdown-el.expanded::after {
+  /*transform:rotate(-180deg);*/
+  /*top:.55em;*/
+  background:url(../images/up-arrow10_1.png) no-repeat;
+}
+
+.mobileyear {
+  padding:0px 0px 0px !important;
+  /*margin-bottom:0 !important;*/
+}
+
+.dropdown-elmonth {
+  width:120px;
+  position:relative;
+  display:inline-block;
+  margin-right:1em;
+  min-height:2em;
+  /*max-height:2em;*/
+  overflow:hidden;
+  cursor:pointer;
+  text-align:left;
+  white-space:nowrap;
+  color:#fff;
+  outline:none;
+  border-radius:1em;
+  max-height:100px;
+  overflow-y:scroll;
+}
+
+.dropdown-elmonth input {
+  display:none;
+}
+
+.dropdown-elmonth label {
+  display:block;
+  height:2em;
+  line-height:2em;
+  padding-left:1em;
+  padding-right:3em;
+  cursor:pointer;
+  position:relative;
+}
+
+.dropdown-elmonth label:nth-child(2) {
+  margin-top:2em;
+}
+
+.dropdown-elmonth input:checked + label {
+  display:block;
+  border-top:none;
+  position:absolute;
+  top:0;
+  padding-left:0;
+}
+
+.dropdown-elmonth input:checked + label:nth-child(2) {
+  margin-top:0;
+  position:relative;
+}
+
+.dropdown-elmonth::after {
+  content:"";
+  position:absolute;
+  right:0.8em;
+  top:10px;
+  background:url(../images/down-arrow10_1.png) no-repeat;
+  height:20px;
+  width:20px;
+}
+
+.dropdown-elmonth.expandedmonth {
+  padding:0;
+  max-height:15em;
+}
+
+.dropdown-elmonth.expandedmonth label {
+}
+
+.dropdown-elmonth.expandedmonth label:hover {
+}
+
+.dropdown-elmonth.expandedmonth input:checked + label {
+}
+
+.dropdown-elmonth.expandedmonth::after {
+  background:url(../images/up-arrow10_1.png) no-repeat;
+}
+
+.mobilemonthlast {
+  padding:0px 0px 10px !important;
+}
+

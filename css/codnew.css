@@ -1,0 +1,35 @@
+.cod-learnmore:hover {
+  font-family:'MyriadPro';
+  line-height:1.24;
+  outline:none;
+  text-decoration:none;
+  font-size:18px;
+  color:#2199e8;
+  display:block;
+  text-align:center;
+  width:100px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+}
+
+.cod-learnmore {
+  font-family:'MyriadPro';
+  line-height:1.24;
+  outline:none;
+  text-decoration:none;
+  font-size:18px;
+  color:#2199e8;
+  display:block;
+  text-align:center;
+  width:100px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+}
+
+.blank-cover-page {
+  min-height:800px;
+  display:block;
+}
+
